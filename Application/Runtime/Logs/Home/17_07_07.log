@@ -1,0 +1,631 @@
+[ 2017-07-07T09:16:59+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:18:36+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:20:22+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:22:38+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:24:03+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:25:37+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T09:25:52+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:27:59+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T09:29:11+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:29:42+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:40:01+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:40:19+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:41:10+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T09:55:05+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:55:55+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:56:13+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T09:57:32+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T09:58:33+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T09:59:34+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T10:00:03+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T10:00:48+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T10:01:49+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T10:02:20+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T10:10:33+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:07:10+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:11:10+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:13:54+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+
+[ 2017-07-07T11:15:06+08:00 ] ::1 /index.php?m=home&c=rank&a=index&x=&y=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_rank` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_rank` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+
+[ 2017-07-07T13:42:20+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.009001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.009001s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+ERR: Call to undefined function Home\Model\decode()
+
+[ 2017-07-07T13:43:23+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.026002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.026002s ]
+
+[ 2017-07-07T13:43:26+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T14:06:14+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=ExsdGil9bAzJ36G13pXKjw%3D%3D&encryptedData=r70pYsbCVlogXgLVWbe5yCfw0RMQDcJhSk71YnqcwiF6Sph6%2BjmRqH4h9%2Bjy6b%2ByysECVKMi0%2F5HY90u2Z6XF5dc39%2FW1NCW7UV9XmNjIK8Cjx2oVi8598j5YPx5%2BPTUvoto%2FEFgS%2FZ6gjzqcQO53ZONpQG2thK739tEr%2BZAqrQCrvXmPUJR6nMa%2FGrHTtdsw6KcffG2AJuJs%2FABev1DHxj7Bt6iRTfkIY9KHPUQylV5pak5B9Zn0sFUwEdjaI1pqMnjsIIptPG4X4vzRQbpDZbZm4O7HYgvBgxNXqEaHSfDcQDDfxvG1EhaDoN6glpgRHIJdoMH4LLGTJLbwb41y3Cf7HAmOz7SWCVxbg6OuW2BFNjhqudpmbNbojZUb04%2FjECqyrHvzzzE%2FVVjXCrHjBmaJBwGGmKOOGmjCxQcm9RZYXadLmcxVgrRGq%2FaHcuFpOiWRYMSmaTStiTr9iNTfg%3D%3D&iv=SXOcgjzqFh3NsXPr49P0BA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:06:59+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:07:00+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:07:01+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:08:01+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=ExsdGil9bAzJ36G13pXKjw%3D%3D&encryptedData=l%2FQ4rMRnCMVWYyXsHNe%2Fr4XGM%2F3jtlf7VdJf8zt63RFqaG4RVUsCeA0Rd2pknA%2Fg0sssgTPrtIH0CC0%2FdTh7ES9MiBXZ%2Bllu45kqjZZW61JW42iEU1q4WAjVKwamWsZbF%2FWijSaKwxJsJ1j%2BfdGi%2FHxWgm%2Fs00JsuHDvJ5FWY0Im3R0zAg7EU7%2B2e7jRLPvuKpzVMjS%2F4NVHq3Q1zWCswemRg9NmzROr4vyTsMXY53vwMp2dNhlrftDvTxMvP6sV%2BaEmOiKd5X2%2FpCaXFVbY1v9T5w5voJleq7vb9bmXLAHSj17t9aBaKLyPzlJ3MjsmBdVahUry9dgBBfbva6fdUCpl0xUlRGGx2Ul9P4NflFpPOPiEzQEVXFzAtwBP0Vv95QVqyfTv3yZplkqoCVPwkTMBW0sBaAamAqF3lkcxPueo%2BtRriptdYxeVY83OqOwdy%2BOvxxudJOWs62Fjs%2F4Cug%3D%3D&iv=8H%2FugyVoMCNg7Cg9ZXeWbQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T14:08:48+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=drzcpxhaI%2FwXlG8N%2FAcuQQ%3D%3D&encryptedData=PUohwmPMkGQAx0tPT%2BH1veKcjmVlctBfh%2FcDjMJ9931Y6NNbN6UmkusL9tDg%2Bt8pv%2Bqd7ixJ%2B5Ri%2Fyzssm%2B3dCmmJin61q1kl8lo%2FVzuOUgOl8aCcstBxM%2F4IRYNYD9aBgvlFxd%2FNlEIT%2Bvon99umxLpp1gV%2F4eKKj%2F%2FEp0Xz868SYxMtmkrS76NdqAA0NNzRgpIfEr945Q6ecjn3dO0ZokTQAfu6dsmC2kEr06vXaTHqHU0S7KczG9On%2BdlrdmZwF9G7iMsQXoKSoOgymR7NpohD2WVTwXmI411IE5rzSuNzD4j5DRU2cf8Ds3fG32B2aTuUknZ%2ByYDdtXov7ymBr6zcobqSsHISj146tnL8rbbmdco8ajXaxJQA5i4MmsOAJ9K9YEBRi3qumMSFRbzSl60CUbkt4On5xO2LFsmVAc2mKt6n9dN4HElLo6Pi60pQym5P01HM2NSvw2ND71oCQ%3D%3D&iv=AR6z8ACJ7PsdXo5RM0Entg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T14:09:18+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=drzcpxhaI%2FwXlG8N%2FAcuQQ%3D%3D&encryptedData=973LGLcPE2q6llTpEdi6hoMnQQP4M8MyKzWkINTlUljalelpjSS%2FHodNXhjcb36EWg0YhPBoUVOSBJWd%2FtuH70M51lm1mvvYWS02daC9s3YxdShaJjS%2BNWRefXWxd3I9blUxjb4OQ2vm0KH3jS0XuxA%2B%2BnOSUcQcCP9YLrp0qrnVRTuxi2Hx9fu9lYfEhSowzCfACQ2TT4tqquj0lc2FNg%2BcUrK3CCQWqQNIlAlv3ermxFNn6%2BvsbpHukmJW6NIsL2orvm3ONdoSwmJnRdWMhcrF62wghb5Rtb9mOapm2shbCTdBC2BnTD4t2VYv53y3Q8hxR%2Bjd0f%2FDc0Gokbn3tNexo9%2FXlhNqdU9nvhJ2vOsyWcItP0DKpOxsH8NVXKl%2F%2B77El9XZGg8dhVS%2FX8YoXLOl%2BAdumHVL2iuah2S9EnGd01KzSCHwh6VyYBFUxBFy4DKenqe42Ozjz3ZMyyRnPA%3D%3D&iv=OPpuZIvxmSRKL5XP22hXEA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:10:02+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=drzcpxhaI%2FwXlG8N%2FAcuQQ%3D%3D&encryptedData=Sk1YmEAPGxxBsNzXOt8Zyc7e1xrKaSk%2BRT%2B1QYmWZmboqgQbT56tHol7Z7nXhPreDrPnGBDjE7qMD8zeO6wTCRIw3O%2BgthhZfHqT3uN9NbifTT4tmIpFpMLPAPmCQGWFBYdbsk4vVKD6gppHWcVo0zHURsndFafPDdMcMOocg6GpkaCwItXHMuBqz%2FiaIU5NtTslYBNkLhSh4t4NSZc%2BtKzuCG9g9k5sWTxQgmFs1lh1ELKWtZV82GdlK1PaYTKmnQqxZ2pz9kQnS7vYDOChGqHq9yKpXXEFOVIS3iCMg9TZEPg3tKxqWfnMI6QT70AqDz%2BSqe6CPR2PpJh2XXQxrRIPT8EdNddACVazxZbiyvf%2FaYEGcegpLtZaGZUsBWNFma%2Fk9ZtPr3Km%2BzVZBFz7SOVlgdChH95D5wsXau%2FvJ3P8z%2BFjxSciiHtvxY5U5n9yqH431vdfr7W%2BcdN3WgoAnA%3D%3D&iv=vCNWw3p4X%2BBOSIrw9%2BiBXA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T14:18:39+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=yiZHHWNhw8J9%2FLOL5fwAVw%3D%3D&encryptedData=BeGK5jzkRqn1UqVwWdbs9Z5RcQMdNFUu%2FAtfLv5VBTVZe3axMnmDlKlC2ol4wMylvMXZ1eq4%2F%2Fq6YZuUtBWdawGpFXgxvkZq9ZKgf%2FZNTifKHibDwKEBO%2FnlkcQufGZ1QMoKULXfDgg0BlVFc0qvPjt3Yl4aGwrW4iTv6Ft6G3N43xnQNDFFjtVIuuVCxgbQL%2FM%2F2OXhLBTlpMNQKOd9tRY4Ufl7XRklA%2FrbzIfnml5ZUSbCxTRwPLqQDHzoyoZvL1VnoAIO2FwrN%2FdEhgFRGfPXNffp%2BjJahEYo7OOdHRHmPQltxBwBP0y8r9kJoEBaigqIzU7iAfs1fO%2BVMOsNrPUjrLfHzMsiHNtvusdjp4TC1sCMC1rcks1TT9xqUJ5vIEOPOk7IvPwJfde%2F%2BWqaQut7MetM3d9u8vpt2ZxG5R2LckWFjbWXpEMf17NsD7zDTpKzOVhyHbgnI2C41nNXJA%3D%3D&iv=B%2BbNZPn5Zz1Q2aRrSL1rSQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T14:19:01+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=yiZHHWNhw8J9%2FLOL5fwAVw%3D%3D&encryptedData=4Re1HgMYYwGn%2Bq4v0wB%2BYQz3DI8DBUW1fJvELWbkWNu3sbVYkYKYwbpzi%2FVfTbQHFSDpVO0fYF9zI4l1hDUhuiUyh4DCfeEUCShWWNgkCoY%2BWmqyIj%2FNSUSLSrJMHULooLX1bS504QgiENfpVmd8YkXPTC7zk7UKTgv54bhZ3OiBZ53uWNPB1lcjzG4uCy1cB%2FhCn7%2FHr50twjqNJJ19NtJLD39jt3cNYYkxvUOw%2BdOw94eVA7cjUAGMU%2BAb4LouV2F7krR3yd8%2FvccAE1ssJMI53S2tQ%2FpXBlqXhwCtWF24p0C3%2F8lmFA6k5LGCkFMZIwcXgmPI0d5Bi4iFfcvffOZAmcTw67uPGSH9QHWQ2HQdFFqp4jhQu7F%2BjhRcg1BHMua%2FmyQkLCvHhNY1Dt6MRWJGlOLZU7gTcbJlnmaQ0jC2hfY07QRk8eNuJLNThIpEoYoZj2UsAjZVkvY8YtsuYQ%3D%3D&iv=qrrxkExdnWc2%2BoJ3zCkERg%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:20:03+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=yiZHHWNhw8J9%2FLOL5fwAVw%3D%3D&encryptedData=hn4%2F3Pvz%2B6eblSRN8s8rZ7qTZmRrcTmjr7EDpyfyuKkxHaIckKG4%2BK20FMh2HEiWprfK%2F75QXmgPdpQnNp48U6t7dX22%2BE%2B2kEpInTF711s8sQc8KRAv2RNVkwU7z%2BNMiA3mkSBXgOk3uqcc1Roy0TJUgWM7WIn355zIxtnPGupwh2ub4vW2oMI3%2Fvu%2BsQhUD0Yg%2B0BlNimESKmQmLSkynyis7nx6FGRMD6LwYkeLlg6B16qDZrFhjtdX39t4IzBDFRnZ8R7%2FCHqlXT8mzLKpgIqvjfjXe4cq3XCG1PzWR7Ox4bklDkv3BMMVBQuQKS%2FXAOXOsW9GahvwqO1c%2FFvytk4raVjuDC9MQHayYXyHc4efhjmJpUKRtQf47a9l3cbAEc0G5bQdFld1QuKTG%2BIHeL4bKQcxx94UG6qBJ8Bs%2BCzjkbSUX9eDWKFQUB3y1%2BzNjQJmlumDYL2cQ1nqhYsSg%3D%3D&iv=JIVOwOctMWVpECJbBCNlZA%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:30:26+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=AvZ0AEKC0q%2BpruqVQDwYpQ%3D%3D&encryptedData=HoS4D5N3x%2BwGmvuJDKlqhbH3wXxczvoQttO%2FQXdeMOnvPTIThjwwSMS2syhaWGY10jKZZaxShGkphk%2FUKJ9K9TbzY7FEiwlPJHuwaEQFDSl%2BVrGLlG77FSlgHcGnFAB7BUcNdi7oqrGQlSo8%2BeGqyOE7w7KT5IijNkRsNup5S2kxuC81legDxzjlcimkltZD75nllrSZY6fCEjlBL%2FVhfV9Q5P4eX9U%2FgFYt8s%2FKuNoE8Rn0YLYikYYp8%2FqgvNP8u8qkEramV7BtzPljlZFTa5JDilGwBDmfAKfc%2B9I7ACZXaDGjr6IrH2ky532qXZHOsnIlyOW0%2B9QNOgV%2BN2BFJrhPtnU1qbZ%2BaM2ddWYUp3cjzm7byuj9wSd%2FMLX6TgVJFgOfr7lmHJKvZjL62ETWOOKnpcTM4Fjl%2F2BgALO5wy%2BnKqVKoAs5zVjjtOIixxUXiBYGrWgE0KUurlsN2pyhZg%3D%3D&iv=yHXuel3ZaDXH3dbhqCtA2Q%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T14:39:17+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=EMBqQHiOz3IYYkt2Wy7xeg%3D%3D&encryptedData=BvoTRDqm0uV84AmyO%2BH%2FOEpZsZsxvT6QEC1DCf3PE95xP6VG6pa69QIEIDyrIDjt0oZMT7L7hnzfWkVSvgxH0IEkoM3peyr7hd51TdQ8wHA7Nji%2F7unRRSsDy17EyoqyAOkxyg%2Bm7BHLJqRHpbhFiquLtRZXxScuCXsmmZDXOhQKrfsvMoi7Fo8AiQkaZK46iNWcemFP%2BBrhtMyblFw5%2B1oJa%2Ft%2Fp9Ms18PIfQGVdfoCrl9xRKei7DV2hZly4Q9BIvPrHBOrNxBTfVonPjXVdnys%2FXjoGEpY2YgbiDjaVwE2XK8ictE3S3%2FAl1lD7%2Fx1g0GcEhh2Bg7Ww%2BwPj2Bqoo9QBelvui88bAYqKLC%2B1BmHuQKJWDJ2y4QEx0M228x7bFVdJatQz2eWW58gbL%2FttqopmsVEbwnclBruoUqwMoLJiBVYOk0%2FCQmB9eJZJEwtQYgPQiRR6ufR%2FhHWfqi7UQ%3D%3D&iv=qX%2FRKcCPfewsTyKcMRUtoQ%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T14:43:03+08:00 ] ::1 /index.php?m=home&c=login&a=index&sessionKey=d8ui8oXXgiQIyjCbqZ2jHA%3D%3D&encryptedData=ZviF5DjHEOnJOsWWo3WbXy8bUlX8OJg%2FrB7LaNKfwWmd3X8xT7J74W%2FzdqToPC8rQNESGMDk3IaFs0G%2BLGdhI%2B8Qp5zKuQ5R20j5TJk%2BMqBci8IMTW%2BspijiW%2Ff1o1Uq%2BNEUJtiDO%2Bm48WwBObhcvRTXoaUS%2FtUTswZq1aMHBRaslX9y55eWmqzFX4I5dA11wTYg5EB9sSkVYzoPAfT5whDLRNXPNfll9nFhh%2BWUDHZGPD1CWA00DYxP9zCslh3p%2BnyKRtfiqqxVmMCYrYxiILGs0900l9FalxG%2BPMGrNfTcNn3Z%2BL%2B4kWyU2imSNLTzN43q%2Ffi3B%2FTS3Max2QHE3Jx9RS4uo2FSew1KGNbLsDgAAoNRlg%2FyRHxz0jatwno7L2BnjHdmKwCS9pZYIU%2BxPxv0nnaYbjiqucD5Svk1ao%2BPIFD3yiOuMIPyhNldvZw%2FSlu%2Fli5%2FwObX5ny2BUcpBw%3D%3D&iv=zO2zZjdHK%2Fy0BuRTVGVA6w%3D%3D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T14:49:40+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T14:52:14+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T14:52:27+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T14:57:29+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T14:58:08+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T15:06:15+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8192] Function mcrypt_module_open() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 26 行.
+NOTIC: [8192] Function mcrypt_generic_init() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 27 行.
+NOTIC: [8192] Function mdecrypt_generic() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 29 行.
+NOTIC: [8192] Function mcrypt_generic_deinit() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 30 行.
+NOTIC: [8192] Function mcrypt_module_close() is deprecated E:\wwwroot\Application\Home\Model\LoginModel.class.php 第 31 行.
+
+[ 2017-07-07T15:26:46+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-07T15:27:38+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T16:01:30+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-07T16:16:05+08:00 ] ::1 /index.php?m=home&c=login&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
