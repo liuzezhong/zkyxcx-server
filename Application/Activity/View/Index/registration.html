@@ -1,0 +1,177 @@
+<include file="Index/header" />
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">中铠云</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">创建赛事</a></li>
+                <li><a href="#">发现活动</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">发现活动 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">篮球</a></li>
+                        <li><a href="#">羽毛球</a></li>
+                        <li><a href="#">乒乓球</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">游泳比赛</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">拳击比赛</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="篮球比赛……">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">管理赛事</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="{:U('activity/index/index')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                    <i class="fa fa-check-circle fa-fw" ></i>&nbsp;&nbsp;创建赛事活动主体信息
+                </a>
+                <a href="{:U('activity/index/project')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item " style="color: #2780E3;">
+                    <i class="fa fa-check-circle fa-fw" ></i>&nbsp;&nbsp;创建赛事活动收费项目
+                </a>
+                <if condition="$registration eq 1">
+                    <a href="#" class="list-group-item active">
+                        <i class="fa fa-check-circle fa-fw"></i>&nbsp;&nbsp;创建赛事活动报名信息
+                    </a>
+                    <a href="{:U('activity/index/form')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                        <i class="fa fa-circle-thin fa-fw"></i>&nbsp;&nbsp;生成管理赛事活动信息
+                    </a>
+                    <else />
+                    <a href="#" class="list-group-item active">
+                        <i class="fa fa-circle-thin fa-fw"></i>&nbsp;&nbsp;创建赛事活动报名信息
+                    </a>
+                    <a href="#" class="list-group-item">
+                        <i class="fa fa-circle-thin fa-fw"></i>&nbsp;&nbsp;生成管理赛事活动信息
+                    </a>
+                </if>
+
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="col-md-12">
+                                <form class="form-horizontal">
+                                    <fieldset>
+                                        <legend>设置报名信息</legend>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">报名开始时间</label>
+                                                <div class="col-md-8">
+                                                    <input type="text" class="form-control sandbox-container" name="enrol_start_time" placeholder="请选择开始时间" value="{$tasks.enrol_start_time}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">报名结束时间</label>
+                                                <div class="col-lg-8">
+                                                    <input type="text" class="form-control sandbox-container" name="enrol_end_time" placeholder="请选择结束时间" value="{$tasks.enrol_start_time}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">个人报名上限</label>
+                                                <div class="col-lg-8">
+                                                    <input type="text" class="form-control" name="personal_limit" placeholder="请输入个人报名人数上限" value="{$tasks.personal_limit}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">团体报名上限</label>
+                                                <div class="col-lg-8">
+                                                    <input type="text" class="form-control" name="team_limit" placeholder="请输入团体报名数上限" value="{$tasks.team_limit}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">单个团体上限</label>
+                                                <div class="col-lg-8">
+                                                    <input type="text" class="form-control" name="team_personal_limit" placeholder="请输入单个团体人数上限" value="{$tasks.team_personal_limit}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">活动总名额数</label>
+                                                <div class="col-lg-8">
+                                                    <input type="text" class="form-control" name="total_personal" placeholder="请输入活动总人数上限" value="{$tasks.total_personal}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">最小年龄限制</label>
+                                                <div class="col-lg-8">
+                                                    <input type="text" class="form-control" name="minimum_age" placeholder="请输入允许最小年龄" value="{$tasks.minimum_age}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label for="inputEmail" class="col-md-4 control-label">最大年龄限制</label>
+                                                <div class="col-lg-8">
+                                                    <input type="text" class="form-control" name="maximum_age" placeholder="请输入允许最大年龄" value="{$tasks.maximum_age}">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12">
+                                            <div class="form-group">
+                                                <label for="textArea" class="col-lg-2 control-label">参赛选手声明</label>
+                                                <div class="col-lg-10">
+                                                    <textarea class="form-control" rows="3" name="statement"></textarea>
+                                                    <span class="help-block" id="activity-description-info">请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="col-lg-10 col-lg-offset-2">
+                                                    <button type="button" class="btn btn-primary btn-block" id="create-registration" attr-tasks_id="{$tasks_id}"><i class="fa fa-check fa-fw"></i>&nbsp;&nbsp;下一步，设置报名表单</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </fieldset>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+
+    </div>
+</div>
+<include file="Index/footer" />

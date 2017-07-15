@@ -1,0 +1,185 @@
+<include file="Index/header" />
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">中铠云</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">创建赛事</a></li>
+                <li><a href="#">发现活动</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">发现活动 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">篮球</a></li>
+                        <li><a href="#">羽毛球</a></li>
+                        <li><a href="#">乒乓球</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">游泳比赛</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">拳击比赛</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="篮球比赛……">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">管理赛事</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="{:U('activity/index/index')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                    <i class="fa fa-check-circle fa-fw" ></i>&nbsp;&nbsp;创建赛事活动主体信息
+                </a>
+                <if condition="$project_status eq 1">
+                    <a href="#" class="list-group-item active">
+                        <i class="fa fa-check-circle fa-fw" ></i>&nbsp;&nbsp;创建赛事活动收费项目
+                    </a>
+                    <else />
+                    <a href="#" class="list-group-item active">
+                        <i class="fa fa-circle-thin fa-fw" ></i>&nbsp;&nbsp;创建赛事活动收费项目
+                    </a>
+                </if>
+                <if condition="$project_status eq 1">
+                    <if condition="$registration eq 1">
+                        <a href="{:U('activity/index/registration')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                            <i class="fa fa-check-circle fa-fw"></i>&nbsp;&nbsp;创建赛事活动报名信息
+                        </a>
+                        <else />
+                        <a href="{:U('activity/index/registration')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                            <i class="fa fa-circle-thin fa-fw"></i>&nbsp;&nbsp;创建赛事活动报名信息
+                        </a>
+                    </if>
+                    <else />
+                    <a href="#" class="list-group-item" >
+                        <i class="fa fa-circle-thin fa-fw"></i>&nbsp;&nbsp;创建赛事活动报名信息
+                    </a>
+                </if>
+                <if condition="$registration eq 1">
+                    <a href="{:U('activity/index/form')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                        <i class="fa fa-circle-thin fa-fw" ></i>&nbsp;&nbsp;生成管理赛事活动信息
+                    </a>
+                    <else />
+                    <a href="#" class="list-group-item">
+                        <i class="fa fa-circle-thin fa-fw"></i>&nbsp;&nbsp;生成管理赛事活动信息
+                    </a>
+                </if>
+
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <if condition="$project_status eq 1">
+                                <div class="add-project-list">
+                                    <volist name="projects" id="project">
+                                        <div class="col-md-6">
+                                            <div class="panel panel-default">
+                                                <div class="panel-body">
+                                                    <button type="reset" class="close project-close" aria-label="Close"><i class="fa fa-times-circle" style="color: red;"></i></button>
+                                                    <div class="col-md-12">
+
+                                                        <form class="form-horizontal">
+                                                            <fieldset>
+                                                                <div class="form-group" id="activity-name">
+                                                                    <div class="col-lg-12">
+                                                                        <input type="text" class="form-control" name="title[]" placeholder="竞赛项目/分组名称" value="{$project.title}" attr-project="{$project.project_id}">
+                                                                        <span class="help-block" id="activity-name-info"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <!--<div class="form-group" id="activity-date">
+                                                                    <div class="col-lg-12">
+                                                                        <div class="row">
+                                                                            <div class="col-md-6" id="activity-begaindate">
+                                                                                <input type="text" class="form-control sandbox-container" name="begain_date" placeholder="项目开始日期">
+                                                                                <span class="help-block" id="activity-begaindate-info"></span>
+                                                                            </div>
+                                                                            <div class="col-md-6" id="activity-enddate">
+                                                                                <input type="text" class="form-control sandbox-container" name="end_date" placeholder="项目结束日期">
+                                                                                <span class="help-block" id="activity-enddate-info"></span>
+                                                                            </div>
+                                                                        </div>
+                                                                        <span class="help-block" id="activity-date-info"></span>
+                                                                    </div>
+                                                                </div>-->
+                                                                <div class="form-group" id="activity-contact">
+                                                                    <div class="col-lg-12">
+                                                                        <input type="text" class="form-control" name="price[]" placeholder="每人收费价格，免费请填0" value="{$project.price}">
+                                                                        <span class="help-block" id="activity-contact-info"></span>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </volist>
+                                </div>
+                                <else />
+                                <div class="add-project-list">
+                                    <div class="col-md-6">
+                                        <div class="panel panel-default">
+                                            <div class="panel-body">
+                                                <button type="reset" class="close project-close" aria-label="Close"><i class="fa fa-times-circle" style="color: red;"></i></button>
+                                                <div class="col-md-12">
+                                                    <form class="form-horizontal">
+                                                        <fieldset>
+                                                            <div class="form-group" id="activity-name">
+                                                                <div class="col-lg-12">
+                                                                    <input type="text" class="form-control" name="title[]" placeholder="竞赛项目/分组名称">
+                                                                    <span class="help-block" id="activity-name-info"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group" id="activity-contact">
+                                                                <div class="col-lg-12">
+                                                                    <input type="text" class="form-control" name="price[]" placeholder="每人收费价格，免费请填0">
+                                                                    <span class="help-block" id="activity-contact-info"></span>
+                                                                </div>
+                                                            </div>
+                                                        </fieldset>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </if>
+                            <div class="col-md-6">
+                                <input type="hidden" name="tasks_id" value="{$tasks_id}" />
+                                <button type="button" class="btn btn-default btn-block add-one-project" id="add-one-project"><i class="fa fa-plus fa-fw"></i>&nbsp;&nbsp;添加新的竞赛项目</button>
+                                <button type="button" class="btn btn-primary btn-block" id="save-project"><i class="fa fa-check fa-fw"></i>&nbsp;&nbsp;保存已添加的项目</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+
+    </div>
+</div>
+<include file="Index/footer" />

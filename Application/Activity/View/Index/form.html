@@ -1,0 +1,101 @@
+<include file="Index/header" />
+
+<nav class="navbar navbar-inverse">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">中铠云</a>
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">创建赛事</a></li>
+                <li><a href="#">发现活动</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">发现活动 <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">篮球</a></li>
+                        <li><a href="#">羽毛球</a></li>
+                        <li><a href="#">乒乓球</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">游泳比赛</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">拳击比赛</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="篮球比赛……">
+                </div>
+                <button type="submit" class="btn btn-default">搜索</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">管理赛事</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="{:U('activity/index/index')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                    <i class="fa fa-check-circle fa-fw" ></i>&nbsp;&nbsp;创建赛事活动主体信息
+                </a>
+                <a href="{:U('activity/index/project')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item " style="color: #2780E3;">
+                    <i class="fa fa-check-circle fa-fw" ></i>&nbsp;&nbsp;创建赛事活动收费项目
+                </a>
+                <a href="{:U('activity/index/registration')}&tasks_id={$tasks_id}&project_status={$project_status}&registration={$registration}" class="list-group-item" style="color: #2780E3;">
+                    <i class="fa fa-check-circle fa-fw"></i>&nbsp;&nbsp;创建赛事活动报名信息
+                </a>
+                <a href="#" class="list-group-item active">
+                    <i class="fa fa-circle-thin fa-fw"></i>&nbsp;&nbsp;生成管理赛事活动信息
+                </a>
+            </div>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="alert alert-dismissible alert-success">
+                        <button type="button" class="close" data-dismiss="alert">&times;</button>
+                        <h4>个人报名填写项设置</h4>
+                        <p>点击开关报名项，您也可以增加自定义的报名项目。</p>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            <div class="col-md-12">
+                                <ul class="nav nav-pills nav-form">
+                                    <volist name="attributes" id="attribute">
+                                        <if condition="$attribute.required eq 1">
+                                            <li class="disabled active mustbe"><a href="#" attr-status="{$attribute.required}" attr-name="{$attribute.name}" attr-selected="1" attr-name_id="{$attribute.name_id}">{$attribute.name}</a></li>
+                                            <else />
+                                            <li><a href="#" attr-status="{$attribute.required}" attr-name="{$attribute.name}" attr-selected="0" attr-name_id="{$attribute.name_id}">{$attribute.name}</a></li>
+                                        </if>
+                                    </volist>
+                                </ul>
+                                <!--<button type="button" class="btn"><i class="fa fa-plus fa-fw"></i>&nbsp;&nbsp;添加自定义项目</a></button>-->
+                                <ul class="nav nav-pills nav-add">
+                                        <li class="active"><a href="#" id="add-form"><i class="fa fa-plus fa-fw"></i>&nbsp;&nbsp;添加自定义项目</a></li>
+                                        <li class="active"><a href="#" id="check-form" attr-tasks="{$tasks_id}"><i class="fa fa-check fa-fw"></i>&nbsp;&nbsp;完成表单设置，发布活动</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+
+    </div>
+</div>
+<include file="Index/footer" />

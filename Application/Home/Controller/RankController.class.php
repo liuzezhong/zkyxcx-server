@@ -15,8 +15,13 @@ use Think\Exception;
 class RankController extends Controller {
     public function index() {
         try {
-            $ranks = D('rank')->selectAllRank();
+            $skey = I('post.skey','','string,trim');
+            $session_array = D('Session')->findSessionByCondition('skey',$skey);
+            $openid = $session_array['openid'];
+            $user_array = D('Rank')->findUserByCondition('openid',$openid);
 
+
+            $ranks = D('rank')->selectAllRank();
             $proportion = $ranks[0]['rankmoney'];
             foreach($ranks as $key => $value) {
                 $ranks[$key]['userName'] = $value['username'];
@@ -29,8 +34,19 @@ class RankController extends Controller {
                 unset($ranks[$key]['avatarurl']);
 
                 $ranks[$key]['percentage'] = number_format($value['rankmoney']/$proportion,2)*100 .'%';
+
+                if($user_array['openid'] == $value['openid']) {
+                    $user_array['rankNumber'] = $key;
+                }
+                unset($ranks[$key]['openid']);
             }
-            $this->ajaxReturn($ranks);
+            unset($user_array['openid']);
+
+            $this->ajaxReturn(array(
+                'ranks' => $ranks,
+                'userInfo' => $user_array,
+            ));
+
         } catch (Exception $exception) {
             $this->error($exception->getMessage());
         }
