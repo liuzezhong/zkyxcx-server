@@ -1,0 +1,2836 @@
+[ 2017-08-08T09:28:11+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.043002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.025002s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.025002s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0470s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTK7LF5NqNqINrfjomr9ypt3MfaF8ekMJVF0icUvmd1p2s0eKT1ibibRVF6aUlGz4ld2P7rUia6ACppR0g/0',`nick_name`='D.C' WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' [ RunTime:0.1890s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.197011s ]
+INFO: [ app_end ] --END-- [ RunTime:0.197011s ]
+
+tion\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T09:28:48+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [2] Division by zero E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+NOTIC: [2] A non-numeric value encountered E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+NOTIC: [2] Division by zero E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+NOTIC: [2] A non-numeric value encountered E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+NOTIC: [2] Division by zero E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+NOTIC: [2] A non-numeric value encountered E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+NOTIC: [2] Division by zero E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+NOTIC: [2] A non-numeric value encountered E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 114 行.
+
+[ 2017-08-08T09:29:04+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502155744' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:30:26+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502155826' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T09:41:14+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.071004s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.057003s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.057003s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0450s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156474' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:42:34+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156554' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:43:25+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156605' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:44:44+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156684' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T09:44:59+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156699' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:45:40+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156740' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:46:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156776' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T09:47:58+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156878' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:49:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156956' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T09:49:41+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156981' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:49:54+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502156994' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:50:08+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157008' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T09:50:17+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157017' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:54:19+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157259' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T09:54:26+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bd8b4855383a3f30bb2add175717c442' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157266' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:00:46+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157646' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:01:26+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157686' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:02:50+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157770' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:04:12+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157852' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:05:08+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157908' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:05:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502157916' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:06:58+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158018' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:08:26+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158106' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:08:44+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158124' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:09:08+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158148' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:09:29+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158169' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:09:37+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158177' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:09:49+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158189' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:11:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158281' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:11:30+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158290' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:13:08+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158388' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:13:22+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158402' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:18:08+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158688' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:18:14+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158694' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:23:06+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502158986' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:24:00+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159040' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:25:45+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159145' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:27:25+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159245' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:30:58+08:00 ] 192.168.101.12 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159458' WHERE `tasks_id` = 0 AND `user_id` = 48 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:30:58+08:00 ] 192.168.101.12 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 48 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0340s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:32:52+08:00 ] 192.168.101.12 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 48 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:32:52+08:00 ] 192.168.101.12 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159572' WHERE `tasks_id` = 0 AND `user_id` = 48 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:34:46+08:00 ] 192.168.101.12 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 48 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:34:46+08:00 ] 192.168.101.12 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159686' WHERE `tasks_id` = 0 AND `user_id` = 48 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:35:08+08:00 ] 192.168.101.12 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 48 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:35:08+08:00 ] 192.168.101.12 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159708' WHERE `tasks_id` = 0 AND `user_id` = 48 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:35:38+08:00 ] 192.168.101.12 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 48 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:35:38+08:00 ] 192.168.101.12 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159738' WHERE `tasks_id` = 0 AND `user_id` = 48 [ RunTime:0.0010s ]
+
+[ 2017-08-08T10:36:55+08:00 ] 192.168.101.12 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 48 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:36:55+08:00 ] 192.168.101.12 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159815' WHERE `tasks_id` = 0 AND `user_id` = 48 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:38:02+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.1170s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' [ RunTime:0.4340s ]
+
+[ 2017-08-08T10:38:03+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 53 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:38:03+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159883' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:38:05+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' [ RunTime:0.0880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.038002s ]
+
+[ 2017-08-08T10:38:06+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 53 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T10:38:06+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159886' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:38:13+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159893' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T10:38:32+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502159912' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T12:34:39+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' [ RunTime:0.1620s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.038002s ]
+INFO: [ app_end ] --END-- [ RunTime:0.039002s ]
+
+[ 2017-08-08T12:34:40+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 53 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T12:34:40+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502166880' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0000s ]
+
+[ 2017-08-08T12:34:46+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502166886' WHERE `tasks_id` = 0 AND `user_id` = 53 [ RunTime:0.0010s ]
+
+[ 2017-08-08T12:34:48+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T12:34:48+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f2fb082e9f3f89a17d70ffc0d142a767' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60HIpXCxcpjddDq5p7ZOPmYQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 53 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T12:35:42+08:00 ] 192.168.103.146 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T12:35:43+08:00 ] 192.168.103.146 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T12:35:53+08:00 ] 192.168.103.146 /index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0000s ]
+
+[ 2017-08-08T12:35:56+08:00 ] 192.168.103.146 /index.php?m=activity&c=index&a=getActivityDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0550s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0010s ]
+
+[ 2017-08-08T13:39:34+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0690s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '58b2822a17da69871e71d676d65128db' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.214013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.214013s ]
+
+[ 2017-08-08T13:39:35+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '58b2822a17da69871e71d676d65128db' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0440s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502170775' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0000s ]
+
+[ 2017-08-08T13:39:35+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '58b2822a17da69871e71d676d65128db' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0440s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T13:39:46+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '58b2822a17da69871e71d676d65128db' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T13:39:46+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '58b2822a17da69871e71d676d65128db' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T13:39:46+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '58b2822a17da69871e71d676d65128db' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502170786' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0000s ]
+
+[ 2017-08-08T13:47:07+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0550s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T13:47:07+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502171227' WHERE `tasks_id` = 0 AND `user_id` = 51 [ RunTime:0.0010s ]
+
+[ 2017-08-08T13:47:07+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T14:04:20+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:04:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:04:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502172261' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0010s ]
+
+[ 2017-08-08T14:06:33+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:06:34+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0070s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:06:34+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0060s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502172394' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0010s ]
+
+[ 2017-08-08T14:12:07+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:12:09+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502172729' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0000s ]
+
+[ 2017-08-08T14:12:09+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0050s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:13:01+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:13:02+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:13:02+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0070s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502172782' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0010s ]
+
+[ 2017-08-08T14:14:53+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:14:54+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0130s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:14:54+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0070s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502172894' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0010s ]
+
+[ 2017-08-08T14:16:35+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T14:16:36+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0540s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0050s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:16:36+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0420s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0050s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502172996' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0000s ]
+
+[ 2017-08-08T14:18:31+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T14:18:32+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0060s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502173112' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0000s ]
+
+[ 2017-08-08T14:18:32+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0060s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:21:48+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:21:49+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:21:49+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502173309' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0000s ]
+
+[ 2017-08-08T14:24:00+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T14:24:01+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-08T14:24:01+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502173441' WHERE `tasks_id` = 0 AND `user_id` = null [ RunTime:0.0000s ]
+
+[ 2017-08-08T14:25:45+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5e67fd23c3c5eea2a9d26e0c29edd368' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:25:46+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502173546' WHERE `tasks_id` = 0 AND `user_id` = 51 [ RunTime:0.0000s ]
+
+[ 2017-08-08T14:25:46+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T14:27:37+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0010s ]
+
+[ 2017-08-08T14:27:39+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=getActivityDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0010s ]
+
+[ 2017-08-08T14:27:50+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 8 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-08T14:48:52+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T14:51:14+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1700s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T14:58:20+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.2490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T14:59:53+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1670s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:07:08+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:07:22+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:08:35+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:08:54+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.2640s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:09:10+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.2860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:09:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.2020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:10:47+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1490s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:11:20+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.4060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:11:30+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1990s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:13:08+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1910s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:20:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.2520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:21:20+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:22:15+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:23:17+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:25:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:26:10+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T15:28:51+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:29:29+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:30:24+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.4120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T15:58:05+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.039002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.062004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.062004s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0330s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014000s ]
+
+[ 2017-08-08T15:58:47+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.2870s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T15:59:31+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:00:03+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1680s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:00:58+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1810s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:02:27+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:03:38+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4951a3cd6079310f0e67d20b0e35901f' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:03:49+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f59896ea6e49dea8148e25d504a990ae' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1610s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:10:02+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f59896ea6e49dea8148e25d504a990ae' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1060s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:11:06+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f59896ea6e49dea8148e25d504a990ae' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0510s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-08-08T16:11:27+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f59896ea6e49dea8148e25d504a990ae' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:12:37+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'f59896ea6e49dea8148e25d504a990ae' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:13:39+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '17a0f84a8f85c0ce25ed46f5a453cf67' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:13:51+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '17a0f84a8f85c0ce25ed46f5a453cf67' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0060s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0780s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:17:28+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '17a0f84a8f85c0ce25ed46f5a453cf67' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:32:01+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0350s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:32:05+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0360s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:35:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:35:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502181316' WHERE `tasks_id` = 0 AND `user_id` = 51 [ RunTime:0.0000s ]
+
+[ 2017-08-08T16:35:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T16:37:56+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0470s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:37:56+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T16:37:56+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0080s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502181476' WHERE `tasks_id` = 0 AND `user_id` = 51 [ RunTime:0.0000s ]
+
+[ 2017-08-08T16:38:14+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0370s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:38:15+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T16:38:15+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0060s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502181495' WHERE `tasks_id` = 0 AND `user_id` = 51 [ RunTime:0.0000s ]
+
+[ 2017-08-08T16:38:47+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:39:58+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0310s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:40:38+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:42:56+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:43:33+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0560s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:45:07+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'b8ead80ea24df069411df99e02a4cc14' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:45:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1410s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:51:59+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T16:52:00+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T16:52:00+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502182320' WHERE `tasks_id` = 0 AND `user_id` = 51 [ RunTime:0.0000s ]
+
+[ 2017-08-08T16:52:22+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0880s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-08-08T16:53:16+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-08T16:53:47+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:55:18+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e0425446a46987bd48fd7701dcbc580d' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:58:30+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'cf3e3d7d4749099cea44c229102a9342' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0440s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T16:58:52+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'cf3e3d7d4749099cea44c229102a9342' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T17:07:41+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'cf3e3d7d4749099cea44c229102a9342' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1090s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-08-08T17:08:15+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'cf3e3d7d4749099cea44c229102a9342' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-08T17:28:46+08:00 ] 192.168.101.12 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 48 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-08T17:28:46+08:00 ] 192.168.101.12 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60BxQQMlCkOc-DqTgoT78hQs' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1502184526' WHERE `tasks_id` = 0 AND `user_id` = 48 [ RunTime:0.0000s ]
+

@@ -1,0 +1,31 @@
+[ 2017-08-03T10:30:26+08:00 ] 192.168.101.16 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60P1jYIMF2DYDyZJ6w3xW5VA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 36 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 46 行.
+NOTIC: [8] Undefined variable: user_tasks_already E:\wwwroot\Application\Activity\Controller\UserController.class.php 第 51 行.
+
+[ 2017-08-03T10:30:26+08:00 ] 192.168.101.16 /index.php?m=activity&c=index&a=setSign
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60P1jYIMF2DYDyZJ6w3xW5VA' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0030s ]
+SQL: UPDATE `zk_enrol` SET `sign_time`='1501727426' WHERE `tasks_id` = 0 AND `user_id` = 36 [ RunTime:0.0000s ]
+

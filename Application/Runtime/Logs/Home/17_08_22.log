@@ -1,0 +1,466 @@
+[ 2017-08-22T09:07:36+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T09:09:31+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-08-22T09:09:42+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T09:11:13+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T09:15:27+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0620s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T09:18:08+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T09:19:53+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:27:51+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:28:41+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:28:49+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T10:38:52+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:39:03+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T10:40:38+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0220s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:41:15+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:41:47+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='11V6ZJ38l3LBaZbgjPQ31Q==',`skey`='738bf9ce3b0d13973f1a9877ddf25a0c',`last_visit_time`='1503369707' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0720s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T10:44:39+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '8e6217ac6594c018d4c22d588a93fc21' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:44:40+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='mcf1Hl2R5kKySWIqKYo4GQ==',`skey`='e11759c0177176f8fc5d8d1a68ef1d53',`last_visit_time`='1503369880' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0550s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T10:45:11+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '738bf9ce3b0d13973f1a9877ddf25a0c' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T10:45:11+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_session` SET `session_key`='mcf1Hl2R5kKySWIqKYo4GQ==',`skey`='2a3c5095984a5082e32413f1d81d9910',`last_visit_time`='1503369911' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0720s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T11:16:06+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e11759c0177176f8fc5d8d1a68ef1d53' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:16:07+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='Dhf+n5FGsqzpBJj7/UnTeA==',`skey`='bf3bcb89ee4ed3c245721891f3b39ec5',`last_visit_time`='1503371767' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1660s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:16:52+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '2a3c5095984a5082e32413f1d81d9910' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:16:53+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='Dhf+n5FGsqzpBJj7/UnTeA==',`skey`='dba26738465261df830476a7253f983c',`last_visit_time`='1503371813' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0530s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:18:16+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'bf3bcb89ee4ed3c245721891f3b39ec5' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T11:18:17+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='N7MPYtaw0m6bpkzwZFuGuQ==',`skey`='aa7e52a9f5bf959ed9e3018b988eb2e2',`last_visit_time`='1503371897' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0680s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:18:22+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'dba26738465261df830476a7253f983c' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:18:22+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='N7MPYtaw0m6bpkzwZFuGuQ==',`skey`='2512b0d305d0c17aa355ea98e1dd527f',`last_visit_time`='1503371902' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0680s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:02+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'aa7e52a9f5bf959ed9e3018b988eb2e2' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:03+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='N7MPYtaw0m6bpkzwZFuGuQ==',`skey`='fcd2281f6f0b17a5f15b7b885187dc6c',`last_visit_time`='1503372003' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0810s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:10+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '2512b0d305d0c17aa355ea98e1dd527f' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:11+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='N7MPYtaw0m6bpkzwZFuGuQ==',`skey`='7d89e214734e9ca58bc406e1bc2b8bd7',`last_visit_time`='1503372011' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0770s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:36+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'fcd2281f6f0b17a5f15b7b885187dc6c' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:37+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_session` SET `session_key`='ojcpHqYJaSeiaHxFsDAoMA==',`skey`='eac72f9722bd96ce7d231025f9590237',`last_visit_time`='1503372037' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0950s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:44+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '7d89e214734e9ca58bc406e1bc2b8bd7' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:20:45+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_session` SET `session_key`='ojcpHqYJaSeiaHxFsDAoMA==',`skey`='21b0bc63eea79911a5fce33c285715b6',`last_visit_time`='1503372045' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0600s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:21:27+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'eac72f9722bd96ce7d231025f9590237' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:21:27+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_session` SET `session_key`='ojcpHqYJaSeiaHxFsDAoMA==',`skey`='5fca15be2f349496c0c40a12b2bf3ab5',`last_visit_time`='1503372087' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0710s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:21:34+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '21b0bc63eea79911a5fce33c285715b6' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:21:34+08:00 ] 192.168.103.141 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_session` SET `session_key`='ojcpHqYJaSeiaHxFsDAoMA==',`skey`='2e2bbe7846729c2d2c1ae565f4666e2d',`last_visit_time`='1503372094' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0400s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-22T11:22:33+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5fca15be2f349496c0c40a12b2bf3ab5' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-22T11:22:33+08:00 ] 192.168.100.252 /index.php?m=home&c=login&a=get3rd_session
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_session` SET `session_key`='ojcpHqYJaSeiaHxFsDAoMA==',`skey`='4e4a1efccbf5e38faf59a4316753d57c',`last_visit_time`='1503372153' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0800s ]
+SQL: SELECT * FROM `zk_session` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+

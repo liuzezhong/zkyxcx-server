@@ -374,7 +374,7 @@ $('#check-form').click(function () {
    });
 
    var postUrl = 'index.php?m=activity&c=index&a=checkForm';
-   var jumpUrl = 'index.php?m=activity&c=index&a=index';
+   var jumpUrl = 'index.php?m=activity&c=index&a=generateProgramCode&tasks_id='+tasks_id;
    var postData = {
        'data' : data,
        'tasks_id' : tasks_id,

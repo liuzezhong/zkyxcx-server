@@ -45,4 +45,8 @@ class ProjectModel extends Model {
     public function deleteOneProjectByID($project_id = 0) {
         return $this->_db->where('project_id = ' . $project_id)->delete();
     }
+
+    public function getOneProjectByID($project_id = 0) {
+        return $this->_db->where('project_id = ' . $project_id)->find();
+    }
 }

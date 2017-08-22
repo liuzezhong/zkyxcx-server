@@ -4474,3 +4474,1301 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
 
+[ 2017-07-15T11:19:34+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:19:50+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:19:51+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:20:33+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkActivityBody
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: INSERT INTO `zk_tasks` (`title`,`category`,`start_time`,`end_time`,`description`,`leader`,`contact`,`create_time`,`reward`,`user_id`) VALUES ('中铠篮球赛','5','1499616000','1500048000','请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。','刘泽中','18852983610','1500088832','100','0') [ RunTime:0.0950s ]
+
+[ 2017-07-15T11:20:34+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 24 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T11:20:57+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 24 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('24','3v3','0','1500088857') [ RunTime:0.0350s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('24','5v5','20','1500088857') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('24','6v6','50','1500088857') [ RunTime:0.0410s ]
+
+[ 2017-07-15T11:20:59+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=24&project_status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T11:21:00+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=24&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 24 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:21:01+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index&tasks_id=24&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 24 ) LIMIT 1   [ RunTime:0.0130s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T11:21:02+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=24&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-07-15T11:21:51+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=24&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:22:16+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 24 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_tasks` SET `enrol_start_time`='1499875200',`enrol_end_time`='1499961600',`personal_limit`='1',`team_limit`='0',`team_personal_limit`='0',`total_personal`='4',`minimum_age`='15',`maximum_age`='20',`statement`='请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。' WHERE ( tasks_id = 24 ) [ RunTime:0.0530s ]
+
+[ 2017-07-15T11:22:17+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=form&tasks_id=24&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE ( attribute = 1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:39:01+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0020s ]
+SQL: INSERT INTO `zk_enrol_name` (`name`,`required`,`attribute`,`create_time`) VALUES ('jhkj','1','0','1500089940') [ RunTime:0.0700s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: INSERT INTO `zk_enrol` (`tasks_id`,`user_id`,`create_time`) VALUES ('24','0','1500089940') [ RunTime:0.0560s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0020s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','1') [ RunTime:0.1400s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','2') [ RunTime:0.1230s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','6') [ RunTime:0.0440s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','7') [ RunTime:0.0500s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','8') [ RunTime:0.0660s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','9') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','10') [ RunTime:0.0340s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','11') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','12') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','13') [ RunTime:0.0500s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','14') [ RunTime:0.0330s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','15') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','16') [ RunTime:0.0420s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','17') [ RunTime:0.0330s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','18') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','19') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('6','30') [ RunTime:0.0250s ]
+
+[ 2017-07-15T11:39:02+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-07-15T11:50:16+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:55:39+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkActivityBody
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: INSERT INTO `zk_tasks` (`title`,`category`,`start_time`,`end_time`,`description`,`leader`,`contact`,`create_time`,`reward`,`user_id`) VALUES ('中铠云街区篮球赛','5','1499788800','1500480000','请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。','刘泽中','18852986310','1500090939','100','0') [ RunTime:0.0780s ]
+
+[ 2017-07-15T11:55:40+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=25
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 25 )  [ RunTime:0.0450s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T11:56:09+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 25 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('25','3v3篮球','30','1500090969') [ RunTime:0.0680s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('25','5v5篮球','50','1500090969') [ RunTime:0.0330s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('25','斗牛单挑','0','1500090969') [ RunTime:0.0310s ]
+
+[ 2017-07-15T11:56:10+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=25&project_status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:56:12+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=25&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 25 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T11:56:13+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index&tasks_id=25&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 25 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:56:14+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=25&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T11:56:42+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 25 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_tasks` SET `enrol_start_time`='1499875200',`enrol_end_time`='1499961600',`personal_limit`='20',`team_limit`='20',`team_personal_limit`='5',`total_personal`='120',`minimum_age`='15',`maximum_age`='20',`statement`='请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。' WHERE ( tasks_id = 25 ) [ RunTime:0.0480s ]
+
+[ 2017-07-15T11:56:43+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=form&tasks_id=25&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE ( attribute = 1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T11:57:17+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: INSERT INTO `zk_enrol_name` (`name`,`required`,`attribute`,`create_time`) VALUES ('是否已婚','1','0','1500091036') [ RunTime:0.0990s ]
+SQL: INSERT INTO `zk_enrol_name` (`name`,`required`,`attribute`,`create_time`) VALUES ('是否有小孩','0','0','1500091036') [ RunTime:0.0330s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0070s ]
+SQL: INSERT INTO `zk_enrol` (`tasks_id`,`user_id`,`create_time`) VALUES ('25','0','1500091036') [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0040s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','2') [ RunTime:0.0910s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','3') [ RunTime:0.1300s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','4') [ RunTime:0.0780s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','5') [ RunTime:0.0460s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','12') [ RunTime:0.0260s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','18') [ RunTime:0.0310s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','19') [ RunTime:0.0240s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','31') [ RunTime:0.0670s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('7','32') [ RunTime:0.0800s ]
+
+[ 2017-07-15T11:57:18+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:44:21+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index&tasks_id=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 2 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:44:25+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index&index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:47:21+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkActivityBody
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0040s ]
+SQL: INSERT INTO `zk_tasks` (`title`,`category`,`start_time`,`end_time`,`description`,`leader`,`contact`,`create_time`,`reward`,`user_id`) VALUES ('中铠街区篮球赛','5','1500480000','1500912000','列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。','刘泽中','18852983610','1500097641','100','0') [ RunTime:0.0690s ]
+
+[ 2017-07-15T13:47:23+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:48:02+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('26','3v3篮球','30','1500097681') [ RunTime:0.0570s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('26','5v5篮球','50','1500097681') [ RunTime:0.0820s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('26','1v1斗牛','0','1500097682') [ RunTime:0.0660s ]
+
+[ 2017-07-15T13:48:03+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=26&project_status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:48:07+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:48:09+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 26 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:48:10+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:48:13+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+SQL: UPDATE `zk_project` SET `title`='3v3篮球',`price`='30',`update_time`='1500097693' WHERE ( project_id = 59 ) [ RunTime:0.0890s ]
+SQL: UPDATE `zk_project` SET `title`='5v5篮球',`price`='50',`update_time`='1500097693' WHERE ( project_id = 60 ) [ RunTime:0.0750s ]
+SQL: DELETE FROM `zk_project` WHERE ( project_id = 61 ) [ RunTime:0.0340s ]
+
+[ 2017-07-15T13:48:15+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:48:29+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:48:31+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:48:32+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:48:32+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:48:32+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=26&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 26 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:48:45+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.076005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.076005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:49:57+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkActivityBody
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: INSERT INTO `zk_tasks` (`title`,`category`,`start_time`,`end_time`,`description`,`leader`,`contact`,`create_time`,`reward`,`user_id`) VALUES ('中铠街区体育篮球赛','5','1500480000','1500912000','请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。请列出将要举办赛事活动的相关简介或竞赛规程，并详细介绍活动信息。','刘泽中','18852983610','1500097797','100','0') [ RunTime:0.0520s ]
+
+[ 2017-07-15T13:49:58+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 27 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:50:35+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 27 )  [ RunTime:0.0000s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('27','3v3篮球','30','1500097835') [ RunTime:0.0540s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('27','5v5篮球','50','1500097835') [ RunTime:0.0380s ]
+SQL: INSERT INTO `zk_project` (`tasks_id`,`title`,`price`,`create_time`) VALUES ('27','1v1斗牛','0','1500097835') [ RunTime:0.0250s ]
+
+[ 2017-07-15T13:50:36+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=27&project_status=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:50:39+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=27&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 27 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:50:40+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index&tasks_id=27&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:50:41+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=27&project_status=1&registration=0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 295 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:51:17+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkRegistration
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_tasks` SET `enrol_start_time`='1500134400',`enrol_end_time`='1500393600',`personal_limit`='10',`team_limit`='20',`team_personal_limit`='30',`total_personal`='1000',`minimum_age`='15',`maximum_age`='20',`statement`='请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。请列出将要参赛选手的相关约定或竞赛规程，并详细介绍活动信息。' WHERE ( tasks_id = 27 ) [ RunTime:0.0440s ]
+
+[ 2017-07-15T13:51:18+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=form&tasks_id=27&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE ( attribute = 1 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:51:22+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=27&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-07-15T13:51:24+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=project&tasks_id=27&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 27 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:51:25+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index&tasks_id=27&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 27 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:51:26+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=registration&tasks_id=27&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 27 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:51:28+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=form&tasks_id=27&project_status=1&registration=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE ( attribute = 1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-07-15T13:52:08+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=checkForm
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0010s ]
+SQL: INSERT INTO `zk_enrol_name` (`name`,`required`,`attribute`,`create_time`) VALUES ('是否已婚','1','0','1500097927') [ RunTime:0.0660s ]
+SQL: INSERT INTO `zk_enrol_name` (`name`,`required`,`attribute`,`create_time`) VALUES ('运动多久','0','0','1500097927') [ RunTime:0.0420s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0020s ]
+SQL: INSERT INTO `zk_enrol` (`tasks_id`,`user_id`,`create_time`) VALUES ('27','0','1500097927') [ RunTime:0.1060s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0020s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','1') [ RunTime:0.0560s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','2') [ RunTime:0.0500s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','3') [ RunTime:0.0250s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','10') [ RunTime:0.0320s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','11') [ RunTime:0.0410s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','12') [ RunTime:0.0530s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','13') [ RunTime:0.0450s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','19') [ RunTime:0.0260s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','33') [ RunTime:0.0320s ]
+SQL: INSERT INTO `zk_enrol_k` (`enrol_id`,`name_id`) VALUES ('8','34') [ RunTime:0.0750s ]
+
+[ 2017-07-15T13:52:09+08:00 ] 127.0.0.1 /index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration E:\wwwroot\Application\Activity\Controller\IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given E:\wwwroot\Application\Runtime\Cache\Activity\031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

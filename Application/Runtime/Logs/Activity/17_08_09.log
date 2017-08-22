@@ -1,0 +1,183 @@
+[ 2017-08-09T10:55:26+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'cf3e3d7d4749099cea44c229102a9342' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T10:55:27+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-09T14:32:17+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'fb915fd091e8f352d6a618413a155027' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.1280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T14:33:34+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'fb915fd091e8f352d6a618413a155027' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xTodbZAMfacwkteMiar5eGznmgpxK8IU9cGjProxNiao6qRUlymgKkQgBRjXOWQxm3aPkA/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-08-09T14:33:35+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-09T14:34:14+08:00 ] 192.168.103.146 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-09T14:34:34+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'fb915fd091e8f352d6a618413a155027' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T14:34:35+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 5 ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-08-09T14:34:42+08:00 ] 192.168.103.146 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-09T14:35:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '592aa7befd2195e79c2d836996afd775' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-08-09T14:35:21+08:00 ] 192.168.100.252 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2017-08-09T14:35:28+08:00 ] 192.168.103.146 /index.php?m=activity&c=index&a=getActivityForms
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_project` WHERE ( project_id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+

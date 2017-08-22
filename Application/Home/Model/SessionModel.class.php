@@ -26,12 +26,17 @@ class SessionModel extends Model {
     }
 
     public function updataOneSessionInfo($openid = '' ,$data = array()) {
-        $upData[$openid] = $openid;
+        $upData['openid'] = $openid;
         return $this->_db->where($upData)->save($data);
     }
 
     public function findSessionByCondition($key = '',$value = '') {
         $findData[$key] = $value;
         return $this->_db->where($findData)->find();
+    }
+
+    public function findSessionByConditionArray($data = array()) {
+        $res = $this->_db->where($data)->find();
+        return $res;
     }
 }

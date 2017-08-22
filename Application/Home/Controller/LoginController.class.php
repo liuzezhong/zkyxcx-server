@@ -13,6 +13,84 @@ use Think\Controller;
 use Think\Exception;
 
 class LoginController extends Controller {
+    public function get3rd_session() {
+
+        $code = I('post.code','','trim,string');
+        $jscode2sessionData = array(
+            'appid' => C('APP_ID'),  //小程序唯一标识
+            'secret' => C('APP_SECRET'),  //小程序的 app secret
+            'js_code' => $code,  //登录时获取的 code
+            'grant_type' => C('GRANT_TYPE'),  //填写为 authorization_code
+        );
+
+        $jscode2session = D('Common')->http(C('POST_URL_WEIXIN'), $jscode2sessionData, 'POST', array("Content-type: text/html; charset=utf-8"));
+        $jscode2session_array = json_decode($jscode2session,true);
+
+        //生成3rd_session
+        $skey = md5(time() . mt_rand(1,1000000));
+
+        // 判断用户是否存在
+        $is_user = D('User')->findUserByCondition('openid',$jscode2session_array['openid']);
+
+        //不存在用户
+        if(!$is_user) {
+            $userData = array(
+                'openid' => $jscode2session_array['openid'],
+                'rankmoney' => 0,
+                'user_type' => 0,
+                'user_status' => 0,
+                'create_time' => time(),
+            );
+            $res_add = D('User')->addOneUserInfo($userData);
+            if(!$res_add) {
+                $this->ajaxReturn(array(
+                    'status' => 0,
+                    'message' => '用户信息写入失败'
+                ));
+            }
+        }
+
+        // 判断会话表是否存在openid
+        $session = D('Session')->findSessionByCondition('openid',$jscode2session_array['openid']);
+
+        if(!$session) {
+            //写入session信息
+            $sessionData = array(
+                'openid' => $jscode2session_array['openid'],
+                'session_key' => $jscode2session_array['session_key'],
+                'skey' => $skey,
+                'create_time' => time(),
+                'last_visit_time' => time(),
+            );
+            $res_session = D('Session')->addOneSessionInfo($sessionData);
+            $new_session['id'] = $res_session;
+            if(!$res_session) {
+                $this->ajaxReturn(array(
+                    'status' => 0,
+                    'message' => '会话信息写入失败'
+                ));
+            }
+        }else {
+            $sessionData = array(
+                'session_key' => $jscode2session_array['session_key'],
+                'skey' => $skey,
+                'last_visit_time' => time(),
+            );
+            $res_session = D('Session')->updataOneSessionInfo($jscode2session_array['openid'],$sessionData);
+            $new_session = D('Session')->findSessionByCondition('openid',$jscode2session_array['openid']);
+            if(!$res_session || !$new_session) {
+                $this->ajaxReturn(array(
+                    'status' => 0,
+                    'message' => '会话信息更新失败'
+                ));
+            }
+        }
+
+        $this->ajaxReturn(array(
+            'session_id' => $new_session['id'],
+            'skey' => $skey,
+        ));
+    }
     public function index() {
         if($_POST) {
             $userinfo = json_decode(I('post.res_info','',''),true);
@@ -36,18 +114,20 @@ class LoginController extends Controller {
             $skey = md5(time() . mt_rand(1,1000000));
 
             try {
-                $is_user = D('Rank')->findUserByCondition('openid',$openid);
+                $is_user = D('User')->findUserByCondition('openid',$openid);
                 //不存在用户信息，写入用户信息
                 if(!$is_user) {
                     //写入用户信息
                     $userData = array(
                         'openid' => $openid,
-                        'username' => $userinfo['nickName'],
+                        'nick_name' => $userinfo['nickName'],
                         'avatarurl' => $userinfo['avatarUrl'],
                         'rankmoney' => 0,
+                        'user_type' => 0,
+                        'user_status' => 0,
                         'create_time' => time(),
                     );
-                    $res_add = D('Rank')->addOneUserInfo($userData);
+                    $res_add = D('User')->addOneUserInfo($userData);
                     if(!$res_add) {
                         $this->ajaxReturn(array(
                             'status' => 0,
@@ -166,5 +246,23 @@ class LoginController extends Controller {
         }
         $data = $result[1];
         $this->ajaxReturn($data);
+    }
+
+    public function check3rdSession() {
+
+        $skey = json_decode(I('post.skey','',''),true);
+        $session_array = D('Session')->findSessionByConditionArray($skey);
+
+        if($session_array) {
+            $this->ajaxReturn(array(
+                'status' => 1,
+                'message' => '该session存在且有效！'
+            ));
+        }else if(!$session_array) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => '该session不存在！'
+            ));
+        }
     }
 }

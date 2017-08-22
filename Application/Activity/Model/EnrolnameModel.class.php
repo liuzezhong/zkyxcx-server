@@ -28,4 +28,12 @@ class EnrolnameModel extends Model {
         }
         return $this->_db->add($data);
     }
+
+    public function selectEnrolNameByNameID($data = array()) {
+        if(!$data || !is_array($data)) {
+            throw_exception('数据不存在！');
+        }
+        $selectData['name_id'] = array('IN',$data);
+        return $this->_db->where($selectData)->select();
+    }
 }
