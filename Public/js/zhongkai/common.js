@@ -388,3 +388,13 @@ $('#check-form').click(function () {
         }
     },'JSON');
 });
+
+$('#select-tasks').change(function () {
+    var tasks_id = $('#select-tasks').val();
+    window.location.href = 'index.php?m=activity&c=enrol&a=index&tasks_id='+tasks_id;
+});
+
+$('#enrol-export').click(function () {
+    var tasks_id = $(this).attr('tasks_id');
+    window.location.href = 'index.php?m=activity&c=enrol&a=export&tasks_id='+tasks_id;
+});

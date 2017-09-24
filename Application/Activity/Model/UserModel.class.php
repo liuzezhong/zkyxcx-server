@@ -19,7 +19,8 @@ class UserModel extends Model {
     }
 
     public function selectAllRank() {
-        return $this->_db->order('rankmoney desc')->select();
+
+        return $this->_db->where("nick_name != 'null'")->order('rankmoney desc')->select();
     }
 
     public function findUserByCondition($key = '',$value = '') {
@@ -48,7 +49,6 @@ class UserModel extends Model {
     public function updateUserInfoByOpenID($openid = '', $value = array()) {
         $selectData['openid'] = $openid;
         $res = $this->_db->where($selectData)->save($value);
-        print_r($this->_db->getLastSql());
         return $res;
     }
 

@@ -34,6 +34,13 @@ class EnrolvalueModel extends Model {
         $selectData['name_id'] = $name_id;
         $res = $this->_db->where($selectData)->save($data);
         return $res;
+    }
 
+    public function selectEnrolValueByEnrolID($enrol_ids = array()) {
+        if(!$enrol_ids || !is_array($enrol_ids)) {
+            throw_exception('数据不存在');
+        }
+        $selectData['enrol_id'] = array('IN',$enrol_ids);
+        return $this->_db->where($selectData)->select();
     }
 }

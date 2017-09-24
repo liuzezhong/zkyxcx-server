@@ -36,7 +36,7 @@ class EnrolModel extends Model {
         if(!$user_id) {
             throw_exception('ID不存在！');
         }
-        return $this->_db->where('user_id = ' .$user_id)->select();
+        return $this->_db->where('user_id = ' .$user_id)->order('tasks_id desc')->select();
     }
 
     public function getOneEnrolByUserIdAndComplete($user_id = 0,$complete = 0) {
@@ -81,6 +81,11 @@ class EnrolModel extends Model {
         return $this->_db->where('tasks_id = ' . $tasks_id)->count();
     }
 
-
+    public function selectEnrolByTasksID($tasks_id = 0) {
+        if(!$tasks_id) {
+            throw_exception('赛事ID为空！');
+        }
+        return $this->_db->where('tasks_id = ' . $tasks_id)->select();
+    }
 
 }

@@ -260,6 +260,10 @@ class IndexController extends Controller {
                 $tasks['end_time'] = date('Y-m-d',$tasks['end_time']);
                 $tasks['enrol_start_time'] = date('Y-m-d',$tasks['enrol_start_time']);
                 $tasks['enrol_end_time'] = date('Y-m-d',$tasks['enrol_end_time']);
+
+                //查找有多少人报名
+                $count = D('Enrol')->countTasks($tasks_id);
+                $tasks['count'] = $count;
             }
             $project = D('Project')->selectProjectByTasksID($tasks_id);
             if($project) {
@@ -289,7 +293,7 @@ class IndexController extends Controller {
                 $tasks['enrol_start_time'] = date('Y-m-d',$tasks['enrol_start_time']);
                 $tasks['enrol_end_time'] = date('Y-m-d',$tasks['enrol_end_time']);
             }
-            $enrol_k = D('Enrolk')->selectEnrolByTasksID($tasks_id);
+            $enrol_k = D('Enrolk')->selectEnrolkByTasksID($tasks_id);
             $enrol_name = D('Enrolname')->selectEnrolNameByNameID(array_column($enrol_k,'name_id'));
         }
         if($project_id) {
@@ -328,7 +332,7 @@ class IndexController extends Controller {
                     $tasks['enrol_start_time'] = date('Y-m-d',$tasks['enrol_start_time']);
                     $tasks['enrol_end_time'] = date('Y-m-d',$tasks['enrol_end_time']);
                 }
-                $enrol_k = D('Enrolk')->selectEnrolByTasksID($tasks_id);
+                $enrol_k = D('Enrolk')->selectEnrolkByTasksID($tasks_id);
                 $enrol_name = D('Enrolname')->selectEnrolNameByNameID(array_column($enrol_k,'name_id'));
             }
             if($project_id) {

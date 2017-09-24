@@ -34,7 +34,7 @@ class ActivityModel extends Model {
     }
 
     public function getAllTasks() {
-        return $this->_db->select();
+        return $this->_db->where('tasks_status != -2')->order('tasks_id desc')->select();
     }
 
     public function addViewTimes($tasks_id = 0) {

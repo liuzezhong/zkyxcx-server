@@ -348,7 +348,7 @@
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="Public/js/bootstrap/bootstrap.js"></script>
-<script src="/Public/plugin/uploadify/jquery.uploadify.js"></script>
+<script src="/weapp.zhongkaiyun.com/Public/plugin/uploadify/jquery.uploadify.js"></script>
 
 <script src="Public/js/drag/drag.js"></script>
 

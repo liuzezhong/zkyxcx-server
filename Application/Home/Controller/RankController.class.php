@@ -24,6 +24,10 @@ class RankController extends Controller {
             $ranks = D('rank')->selectAllRank();
             $proportion = $ranks[0]['rankmoney'];
             foreach($ranks as $key => $value) {
+                if(!$value['username'] || $value['username'] == null || $value['username'] == 'null') {
+                    unset($ranks[$key]);
+                    continue;
+                }
                 $ranks[$key]['userName'] = $value['username'];
                 unset($ranks[$key]['username']);
 

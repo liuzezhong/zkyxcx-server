@@ -16,34 +16,40 @@ class UserController extends Controller {
     public function index() {
         try {
             $skey = json_decode(I('post.skey','',''),true);
-            $session_array = D('Session')->findSessionByConditionArray($skey);
-            $openid = $session_array['openid'];
-            $user_array = D('User')->findUserByCondition('openid',$openid);
+            if($skey) {
+                $session_array = D('Session')->findSessionByConditionArray($skey);
+                $openid = $session_array['openid'];
+                $user_array = D('User')->findUserByCondition('openid',$openid);
 
-            $enrol = D('enrol')->getSomeEnrolByUserID($user_array['user_id']);
-            $user_tasks = array();
-            foreach ($enrol as $key => $value) {
-                $one_tasks = D('Activity')->getOneTasksByID($value['tasks_id']);
-                $one_tasks['start_time'] = date('Y-m-d',$one_tasks['start_time']);
-                if($value['complete'] == 0) {
-                    $user_tasks[] = $one_tasks;
-                }else if($value['complete'] == 1) {
-                    $user_tasks_already[] = $one_tasks;
-                }
-            }
-
-            $ranks = D('User')->selectAllRank();
-            foreach($ranks as $key => $value) {
-                if($user_array['openid'] == $value['openid']) {
-                    $user_array['rankNumber'] = $key + 1;
+                $enrol = D('enrol')->getSomeEnrolByUserID($user_array['user_id']);
+                $user_tasks = array();
+                foreach ($enrol as $key => $value) {
+                    $one_tasks = D('Activity')->getOneTasksByID($value['tasks_id']);
+                    if(!$one_tasks || !is_array($one_tasks)) {
+                        continue;
+                    }
+                    $one_tasks['start_time'] = date('Y-m-d',$one_tasks['start_time']);
+                    if($value['complete'] == 0) {
+                        $user_tasks[] = $one_tasks;
+                    }else if($value['complete'] == 1) {
+                        $user_tasks_already[] = $one_tasks;
+                    }
                 }
 
+                $ranks = D('User')->selectAllRank();
+                foreach($ranks as $key => $value) {
+                    if($user_array['openid'] == $value['openid']) {
+                        $user_array['rankNumber'] = $key + 1;
+                    }
+
+                }
+
+                unset($user_array['openid']);
+
+                $userTasksStatus = $user_tasks ? 1 : 0;
+                $userTasksAlreadyStatus = $user_tasks_already ? 1 : 0;
             }
 
-            unset($user_array['openid']);
-
-            $userTasksStatus = $user_tasks ? 1 : 0;
-            $userTasksAlreadyStatus = $user_tasks_already ? 1 : 0;
             $this->ajaxReturn(array(
                 'userInfo' => $user_array,
                 'userTasksStatus' => $userTasksStatus,
@@ -101,7 +107,9 @@ class UserController extends Controller {
 
             $ranks = D('User')->selectAllRank();
             $proportion = $ranks[0]['rankmoney'];
+
             foreach($ranks as $key => $value) {
+
                 $ranks[$key]['userName'] = $value['nick_name'];
                 unset($ranks[$key]['username']);
 
@@ -136,6 +144,7 @@ class UserController extends Controller {
         $userInfo = json_decode(I('post.userInfo','',''),true);
         //session信息
         $sessionArray = json_decode(I('post.sessionArray','',''),true);
+
         $session = D('Session')->findSessionByConditionArray($sessionArray);
 
         if($session) {
@@ -156,6 +165,8 @@ class UserController extends Controller {
                     $this->ajaxReturn(array(
                         'status' => 1,
                         'message' => '用户信息更新成功！',
+                        'userinfo' => $userInfo,
+                        'sessionarray' => $sessionArray,
                     ));
                 }
             }else {

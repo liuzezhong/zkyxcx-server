@@ -1,0 +1,90 @@
+[ 2017-08-29T11:12:20+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:12:20+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:12:23+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:12:26+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:12:50+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:12:53+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:12:57+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:12:57+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:13:00+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-29T11:13:02+08:00 ] 192.168.103.157 /index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+

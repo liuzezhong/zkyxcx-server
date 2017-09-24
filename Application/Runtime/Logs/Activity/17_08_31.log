@@ -1,0 +1,2147 @@
+[ 2017-08-31T10:38:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:09+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:09+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:09+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001167s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:12+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000155s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000233s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:14+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:15+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000321s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:17+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000964s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000515s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:18+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:22+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000358s ]
+NOTIC: [8] Undefined variable: user_array /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: userTasksStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: user_tasks /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: userTasksAlreadyStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 55 行.
+
+[ 2017-08-31T10:38:51+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+NOTIC: [8] Undefined variable: user_array /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: userTasksStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: user_tasks /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: userTasksAlreadyStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 55 行.
+
+[ 2017-08-31T10:38:56+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:38:59+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+NOTIC: [8] Undefined variable: user_array /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: userTasksStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: user_tasks /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: userTasksAlreadyStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 55 行.
+
+[ 2017-08-31T10:39:01+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000292s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000371s ]
+NOTIC: [8] Undefined variable: user_array /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: userTasksStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: user_tasks /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: userTasksAlreadyStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 55 行.
+
+[ 2017-08-31T10:39:02+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000391s ]
+NOTIC: [8] Undefined variable: user_array /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 51 行.
+NOTIC: [8] Undefined variable: userTasksStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 52 行.
+NOTIC: [8] Undefined variable: user_tasks /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 53 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+NOTIC: [8] Undefined variable: userTasksAlreadyStatus /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 55 行.
+
+[ 2017-08-31T10:39:10+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:39:25+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:39:55+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000159s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000223s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:41:56+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000340s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:41:56+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
+[ 2017-08-31T10:44:47+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000363s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0070s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+
+[ 2017-08-31T10:44:47+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000355s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+
+[ 2017-08-31T10:44:55+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000413s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0063s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+
+[ 2017-08-31T10:44:55+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.or' at line 1
+ [ SQL语句 ] : SELECT * FROM `zk_session` WHERE ( <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<title>系统发生错误</title>
+<style type="text/css">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: '微软雅黑'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class="error">
+<p class="face">:(</p>
+<h1>SQLSTATE[HY000] [2002] Operation timed out</h1>
+<div class="content">
+	<div class="info">
+		<div class="title">
+			<h3>错误位置</h3>
+		</div>
+		<div class="text">
+			<p>FILE: /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php &#12288;LINE: 109</p>
+		</div>
+	</div>
+	<div class="info">
+		<div class="title">
+			<h3>TRACE</h3>
+		</div>
+		<div class="text">
+			<p>#0 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(109): E('SQLSTATE[HY000]...')<br />
+#1 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver.class.php(1075): Think\Db\Driver->connect()<br />
+#2 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Db/Driver/Mysql.class.php(47): Think\Db\Driver->initConnect(true)<br />
+#3 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(134): Think\Db\Driver\Mysql->getFields('zk_user')<br />
+#4 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(122): Think\Model->flush()<br />
+#5 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(1454): Think\Model->_checkTableInfo()<br />
+#6 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Model.class.php(97): Think\Model->db(0, '', true)<br />
+#7 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(621): Think\Model->__construct('user', '', '')<br />
+#8 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Model/UserModel.class.php(18): M('user')<br />
+#9 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Common/functions.php(588): Home\Model\UserModel->__construct('User')<br />
+#10 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Home/Controller/LoginController.class.php(33): D('User')<br />
+#11 [internal function]: Home\Controller\LoginController->get3rd_session()<br />
+#12 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(173): ReflectionMethod->invoke(Object(Home\Controller\LoginController))<br />
+#13 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(110): Think\App::invokeAction(Object(Home\Controller\LoginController), 'get3rd_session')<br />
+#14 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/App.class.php(204): Think\App::exec()<br />
+#15 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/Think.class.php(120): Think\App::run()<br />
+#16 /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/ThinkPHP.php(97): Think\Think::start()<br />
+#17 /Work/wwwroot/weapp.zhongkaiyun.com/index.php(24): require('/Work/wwwroot/w...')<br />
+#18 {main}</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class="copyright">
+<p><a title="官方网站" href="http://www.thinkphp.cn">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+ ) LIMIT 1  
+
+[ 2017-08-31T10:45:43+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000154s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'd259a90766e748b0f9c1679162cc8537' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0008s ]
+
+[ 2017-08-31T10:45:43+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'd259a90766e748b0f9c1679162cc8537' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0061s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T10:45:51+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000623s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-31T10:45:51+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-31T10:45:54+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivityDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000523s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000776s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_tasks` SET `view_times`=view_times+1 WHERE ( tasks_id = 29 ) [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'd259a90766e748b0f9c1679162cc8537' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_enrol` WHERE `tasks_id` = 29 AND `user_id` = 51 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+
+[ 2017-08-31T10:45:55+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000316s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000262s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2017-08-31T10:47:27+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '5724489acb7b4198beb70487e69edb47' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-31T10:47:30+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000307s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-31T10:47:30+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-08-31T10:47:37+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivityDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: UPDATE `zk_tasks` SET `view_times`=view_times+1 WHERE ( tasks_id = 31 ) [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4d53040c767306cbb2af9ae22ed8f6a2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE `tasks_id` = 31 AND `user_id` = 51 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 31 )  [ RunTime:0.0002s ]
+
+[ 2017-08-31T10:47:42+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-31T10:47:45+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-08-31T10:47:45+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com//index.php?m=activity&c=index&a=getActivityDetails
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000219s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: UPDATE `zk_tasks` SET `view_times`=view_times+1 WHERE ( tasks_id = 30 ) [ RunTime:0.0058s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4d53040c767306cbb2af9ae22ed8f6a2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol` WHERE `tasks_id` = 30 AND `user_id` = 51 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `zk_enrol` WHERE ( tasks_id = 30 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 30 )  [ RunTime:0.0002s ]
+
+[ 2017-08-31T10:47:46+08:00 ] 192.168.103.239 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = '4d53040c767306cbb2af9ae22ed8f6a2' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:12:42+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000452s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000660s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'd259a90766e748b0f9c1679162cc8537' LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000982s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001034s ]
+
+[ 2017-08-31T15:12:42+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'd259a90766e748b0f9c1679162cc8537' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = null LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0013s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-08-31T15:12:45+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000442s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2017-08-31T15:12:53+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000376s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001437s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001499s ]
+
+[ 2017-08-31T15:12:53+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:12:56+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000449s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+
+[ 2017-08-31T15:13:34+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006288s ]
+
+[ 2017-08-31T15:13:34+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0023s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:13:35+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+
+[ 2017-08-31T15:13:43+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000658s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000372s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000402s ]
+
+[ 2017-08-31T15:13:43+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:13:45+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+
+[ 2017-08-31T15:15:05+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000160s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005925s ]
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000606s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0025s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001376s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001512s ]
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000227s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000604s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000555s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000330s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000893s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000969s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0022s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:15:06+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000559s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:15:09+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000450s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+
+[ 2017-08-31T15:15:15+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0007s ]
+
+[ 2017-08-31T15:15:21+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000646s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0023s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000304s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-08-31T15:15:21+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:16:01+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000433s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000505s ]
+
+[ 2017-08-31T15:16:02+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:16:04+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 108 行.
+NOTIC: [8] Undefined index: username /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 108 行.
+NOTIC: [8] Undefined index: username /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 108 行.
+
+[ 2017-08-31T15:16:11+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000490s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0008s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000637s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2017-08-31T15:16:11+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000593s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:16:13+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: username /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 108 行.
+NOTIC: [8] Undefined index: username /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 108 行.
+NOTIC: [8] Undefined index: username /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 108 行.
+
+[ 2017-08-31T15:16:41+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000378s ]
+
+[ 2017-08-31T15:16:41+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:16:42+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000681s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+
+[ 2017-08-31T15:27:26+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005935s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005985s ]
+
+[ 2017-08-31T15:27:26+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != null ) ORDER BY rankmoney desc  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:27:30+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != null ) ORDER BY rankmoney desc  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 106 行.
+
+[ 2017-08-31T15:28:05+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000336s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001359s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001441s ]
+
+[ 2017-08-31T15:28:05+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:28:07+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+
+[ 2017-08-31T15:29:03+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000548s ]
+
+[ 2017-08-31T15:29:03+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE `nick_name` <> null ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:29:04+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE `nick_name` <> null ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 106 行.
+
+[ 2017-08-31T15:29:07+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_user` WHERE `nick_name` <> null ORDER BY rankmoney desc  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 106 行.
+
+[ 2017-08-31T15:29:59+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0057s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000377s ]
+
+[ 2017-08-31T15:29:59+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != '' ) ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:30:01+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000219s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != '' ) ORDER BY rankmoney desc  [ RunTime:0.0005s ]
+
+[ 2017-08-31T15:30:15+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000592s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-08-31T15:30:15+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != 'null' ) ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T15:30:17+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=rank
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != 'null' ) ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+
+[ 2017-08-31T16:39:38+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0014s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006021s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006096s ]
+
+[ 2017-08-31T16:39:38+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != 'null' ) ORDER BY rankmoney desc  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T16:50:00+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0021s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2017-08-31T16:50:00+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != 'null' ) ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T16:50:03+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000731s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000780s ]
+
+[ 2017-08-31T16:50:03+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000212s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != 'null' ) ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T16:50:31+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000636s ]
+
+[ 2017-08-31T16:50:31+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000282s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != 'null' ) ORDER BY rankmoney desc  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+
+[ 2017-08-31T16:53:38+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=saveUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000606s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0011s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0005s ]
+SQL: UPDATE `zk_user` SET `avatarurl`='https://wx.qlogo.cn/mmopen/vi_32/DYAIOgq83er4x36mk2xToWWVHeia2FwvRTswHcia0p9IF7lx8HNMtE0sian7Ie1uHq6VfDQ6OjVhjibrLwb4VbIB2g/0',`nick_name`='刘泽中' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0063s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000845s ]
+
+[ 2017-08-31T16:53:47+08:00 ] 192.168.103.242 /weapp.zhongkaiyun.com/index.php?m=activity&c=user&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `zk_session` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_session` WHERE `skey` = 'e6b16a3521ea974f8c840fe7c841a4e9' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_user` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_user` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( user_id = 51 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_tasks` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 29 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_tasks` WHERE ( tasks_id = 31 ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_user` WHERE ( nick_name != 'null' ) ORDER BY rankmoney desc  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 47 行.
+NOTIC: [8] Undefined variable: user_tasks_already /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/UserController.class.php 第 54 行.
+

@@ -1,0 +1,518 @@
+[ 2017-09-04T16:44:26+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000675s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+ERR: 无法加载控制器:Enrol
+
+[ 2017-09-04T16:44:52+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=index&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000389s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0104s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0028s ]
+NOTIC: [8] Undefined index: tasks_id /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000094s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/weapp.zhongkaiyun.com/Application/Runtime/Cache/Activity/031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/weapp.zhongkaiyun.com/Application/Runtime/Cache/Activity/031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/weapp.zhongkaiyun.com/Application/Runtime/Cache/Activity/031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042338s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042460s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2017-09-04T16:45:19+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000323s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000350s ]
+ERR: 无法加载控制器:Enrol
+
+[ 2017-09-04T16:45:56+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=Enrol&a=index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000345s ]
+ERR: 无法加载控制器:Enrol
+
+[ 2017-09-04T16:46:04+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000342s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000381s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `zk_event` WHERE ( status != -1 )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: tasks_id /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 21 行.
+NOTIC: [8] Undefined variable: tasks /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 36 行.
+NOTIC: [8] Undefined variable: tasks_id /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 37 行.
+NOTIC: [8] Undefined variable: project_status /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: registration /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/IndexController.class.php 第 39 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/weapp.zhongkaiyun.com/Application/Runtime/Cache/Activity/031f960a0526cfaf914778c7e8ea5709.php 第 88 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/weapp.zhongkaiyun.com/Application/Runtime/Cache/Activity/031f960a0526cfaf914778c7e8ea5709.php 第 95 行.
+NOTIC: [2] is_null() expects exactly 1 parameter, 0 given /Work/wwwroot/weapp.zhongkaiyun.com/Application/Runtime/Cache/Activity/031f960a0526cfaf914778c7e8ea5709.php 第 209 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015333s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000186s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000492s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000525s ]
+
+[ 2017-09-04T16:48:02+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000225s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000172s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000612s ]
+
+[ 2017-09-04T16:48:53+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005546s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005574s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000385s ]
+
+[ 2017-09-04T16:54:16+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000175s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000219s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020453s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000158s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2017-09-04T16:57:47+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024434s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000157s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000553s ]
+
+[ 2017-09-04T17:01:15+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013343s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000469s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2017-09-04T17:01:29+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0060s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000040s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000080s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013096s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013177s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2017-09-04T17:02:41+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005840s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005869s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000101s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2017-09-04T17:06:49+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0015s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011564s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000130s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000157s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-09-04T17:07:42+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011585s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000203s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000277s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000419s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000458s ]
+
+[ 2017-09-04T17:08:43+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000062s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011102s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000162s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2017-09-04T17:16:10+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: enrol /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php 第 22 行.
+NOTIC: [2] array_column() expects parameter 1 to be array, null given /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php 第 22 行.
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_value` [ RunTime:0.0004s ]
+NOTIC: 建议使用E方法替代throw_exception
+
+[ 2017-09-04T17:16:20+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_value` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol_value` WHERE `enrol_id` IN ('67','69','71','73','74')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011834s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011884s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000378s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000414s ]
+
+[ 2017-09-04T17:16:50+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000271s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_value` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol_value` WHERE `enrol_id` IN ('67','69','71','73','74')  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000052s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012593s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000183s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2017-09-04T23:11:18+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000800s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000865s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0085s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_value` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zk_enrol_value` WHERE `enrol_id` IN ('67','69','71','73','74')  [ RunTime:0.0013s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000754s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000808s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031020s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000885s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000835s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000876s ]
+
+[ 2017-09-04T23:12:44+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_value` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_enrol_value` WHERE `enrol_id` IN ('67','69','71','73','74')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000216s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000242s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000454s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000488s ]
+
+[ 2017-09-04T23:13:49+08:00 ] 127.0.0.1 /weapp.zhongkaiyun.com/index.php?m=activity&c=enrol
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `zk_project` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_project` WHERE ( tasks_id = 29 )  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zk_enrol` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `zk_enrol` WHERE ( tasks_id = 29 )  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_k` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_enrol_k` WHERE ( tasks_id = 29 )  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_name` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zk_enrol_name` WHERE `name_id` IN ('1','2','3','4','5','7','9','10','11','12','13','14','15','16','18')  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_enrol_value` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_enrol_value` WHERE `enrol_id` IN ('67','69','71','73','74')  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000147s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012356s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012400s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000138s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Work/wwwroot/weapp.zhongkaiyun.com/Application/Activity/Controller/EnrolController.class.php:31) /Work/wwwroot/weapp.zhongkaiyun.com/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000403s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000440s ]
+

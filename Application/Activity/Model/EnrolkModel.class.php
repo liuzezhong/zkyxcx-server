@@ -25,7 +25,7 @@ class EnrolkModel extends Model {
         return $this->_db->add($data);
     }
 
-    public function selectEnrolByTasksID($tasks_id = 0) {
+    public function selectEnrolkByTasksID($tasks_id = 0) {
         if(!$tasks_id) {
             throw_exception('ID不存在！');
         }

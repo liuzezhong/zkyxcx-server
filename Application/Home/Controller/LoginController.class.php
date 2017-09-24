@@ -91,6 +91,8 @@ class LoginController extends Controller {
             'skey' => $skey,
         ));
     }
+
+
     public function index() {
         if($_POST) {
             $userinfo = json_decode(I('post.res_info','',''),true);

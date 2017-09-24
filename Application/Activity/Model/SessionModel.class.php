@@ -36,6 +36,7 @@ class SessionModel extends Model {
     }
 
     public function findSessionByConditionArray($data = array()) {
+
         $res = $this->_db->where($data)->find();
         return $res;
     }

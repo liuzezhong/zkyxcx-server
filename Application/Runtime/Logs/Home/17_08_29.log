@@ -1,0 +1,9 @@
+[ 2017-08-29T11:12:20+08:00 ] 192.168.103.157 /index.php?m=home&c=login&a=check3rdSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000651s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000355s ]
+ERR: SQLSTATE[HY000] [2002] Operation timed out
+
