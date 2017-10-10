@@ -243,6 +243,14 @@ class IndexController extends Controller {
 
             $enrol = D('Enrol')->getOneEnrolByTaskIDANDUserID($tasks_id,$user_id);
 
+            if($enrol['sign_time'] != 0) {
+                $enrol['sign_status'] = 1;
+                $enrol['sign_time'] = date('Y-m-d H:i:s',$enrol['sign_time']);
+
+            }else {
+                $enrol['sign_status'] = 0;
+            }
+
             if($enrol) {
                 $enrol_flag = 1;
             }else if(!$enrol) {
@@ -278,6 +286,7 @@ class IndexController extends Controller {
             'project_key' => $project_key,
             'project_value' => $project_value,
             'enrol_flag' => $enrol_flag,
+            'enrol' => $enrol,
         ));
     }
 
@@ -345,7 +354,7 @@ class IndexController extends Controller {
                     if($item['name_id'] == 7 || $item['name_id'] == 18) {
                         $enrol_vlaue[$key]['value'] = json_decode($item['value'],true);
                     }
-                }
+                }http://weapp.zhongkaiyun.com/Public/image/enrol/216.png
             }
         }
 
@@ -357,6 +366,7 @@ class IndexController extends Controller {
             'project' => $project,
             'enrol_name' => $enrol_name,
             'enrol_value' => $enrol_vlaue,
+            'enrol' => $enrol,
         ));
 
 
@@ -423,7 +433,7 @@ class IndexController extends Controller {
                     );
                     $res_enrolValue = D('Enrolvalue')->addOneEnrolValue($enrolValue);
                 }
-
+                $this->qrcode($enrol_id);
                 $this->ajaxReturn(array(
                     'status' => 1,
                     'message' => '活动报名成功！',
@@ -444,6 +454,23 @@ class IndexController extends Controller {
         }
     }
 
+    public function qrcode($enrol_id = 0) {
+        vendor("Qrcode.phpqrcode");
+        $value = $enrol_id; //二维码内容
+
+        $errorCorrectionLevel = 'Q';//容错级别
+        $matrixPointSize = 6;//生成图片大小
+
+        //生成二维码图片
+        $object = new \QRcode();
+        ob_clean();//这个一定要加上，清除缓冲区
+        $filename = "Public/image/enrol/".$enrol_id.".png";
+        $object->png($value, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
+
+        //保存到数据库
+        $url = "http://".$_SERVER['HTTP_HOST'].'/'.$filename;
+        D('enrol')->updateQrcodebyEnrolID($enrol_id,array('sign_qrcode' => $url));
+    }
 
     public function updateForms() {
 

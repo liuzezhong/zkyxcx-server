@@ -88,4 +88,10 @@ class EnrolModel extends Model {
         return $this->_db->where('tasks_id = ' . $tasks_id)->select();
     }
 
+    public function updateQrcodebyEnrolID($enrol_id = 0,$data=array()) {
+        if(!$enrol_id) {
+            throw_exception('报名ID为空！');
+        }
+        return $this->_db->where('enrol_id = ' .$enrol_id)->save($data);
+    }
 }
