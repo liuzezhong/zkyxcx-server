@@ -1,0 +1,12 @@
+[ 2017-10-24T15:40:29+08:00 ] 192.168.103.104 /weapp.zhongkaiyun.com/index.php?m=sapp&c=login&a=checkSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+ERR: 无法加载模块:Sapp
+
+[ 2017-10-24T15:40:30+08:00 ] 192.168.103.104 /weapp.zhongkaiyun.com/index.php?m=sapp&c=login&a=checkSession
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000189s ]
+ERR: 无法加载模块:Sapp
+

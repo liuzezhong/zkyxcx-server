@@ -243,16 +243,15 @@ class IndexController extends Controller {
 
             $enrol = D('Enrol')->getOneEnrolByTaskIDANDUserID($tasks_id,$user_id);
 
-            if($enrol['sign_time'] != 0) {
-                $enrol['sign_status'] = 1;
-                $enrol['sign_time'] = date('Y-m-d H:i:s',$enrol['sign_time']);
-
-            }else {
-                $enrol['sign_status'] = 0;
-            }
-
             if($enrol) {
                 $enrol_flag = 1;
+                if($enrol['sign_time'] != 0) {
+                    $enrol['sign_status'] = 1;
+                    $enrol['sign_time'] = date('Y-m-d H:i:s',$enrol['sign_time']);
+
+                }else {
+                    $enrol['sign_status'] = 0;
+                }
             }else if(!$enrol) {
                 $enrol_flag = 0;
             }

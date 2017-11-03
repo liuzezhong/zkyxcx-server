@@ -13,4 +13,10 @@ return array(
     'TYXD_MCH_ID' => '1374113102',  //微信支付商户号
     'TYXD_KEY' => 'F0DD18E107E1448133E10AAB9AA337E3', //微信商户平台(pay.weixin.qq.com)-->账户设置-->API安全-->密钥设置
 
+    'WECHAT_SMALL_APPLICATION' => array(
+        'APPID' => 'wx25ea2cea38cdfd37',
+        'APPSECRET' => '60da1a9da38298f655f5ae2738612afc',
+        'TYXD_MCH_ID' => '1374113102',  //微信支付商户号
+    ),
+
 );

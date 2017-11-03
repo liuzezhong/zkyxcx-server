@@ -1,0 +1,10 @@
+[ 2017-10-27T11:21:10+08:00 ] 192.168.103.114 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000645s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000716s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0186s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0031s ]
+

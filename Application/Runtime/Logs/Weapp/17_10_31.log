@@ -1,0 +1,1760 @@
+[ 2017-10-31T09:48:41+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000513s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T09:48:42+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000344s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T09:48:57+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T09:48:58+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T09:48:59+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000527s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T09:49:03+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-10-31T09:49:03+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T09:49:17+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000261s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T09:51:57+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000398s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T09:52:00+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000263s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0022s ]
+
+[ 2017-10-31T09:52:00+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000725s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T09:52:03+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 6 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T09:52:07+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'WAfPFimNHUynsmiT' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T10:13:32+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: unionid /Work/wwwroot/weapp.zhongkaiyun.com/Application/Weapp/Controller/WxuserController.class.php 第 41 行.
+SQL: UPDATE `zk_sessionkey` SET `session3key`='fvhxJa5jXbHV5Tpq',`session_key`='kE0IzDfgpGQ5jhyBMC/SKA==',`unionid`=NULL,`gmt_create`='2017-10-31 10:13:32' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0059s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T10:15:03+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000254s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0010s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-10-31T10:15:05+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T10:15:07+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000490s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T10:15:08+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000428s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T10:15:08+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0008s ]
+
+[ 2017-10-31T10:15:10+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T10:15:13+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000284s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+
+[ 2017-10-31T10:15:41+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T10:15:42+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000563s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0032s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T10:15:43+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000328s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0006s ]
+
+[ 2017-10-31T10:15:43+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T10:15:45+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T10:15:46+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T10:16:18+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=createRegisterAndPayrecord
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+
+[ 2017-10-31T11:27:13+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T11:27:14+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T11:27:15+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000228s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000473s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0005s ]
+
+[ 2017-10-31T11:27:15+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T11:27:43+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T11:27:44+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000478s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T11:28:06+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=createRegisterAndPayrecords
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+ERR: 1364:Field 'payrecords_id' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `zk_register` (`match_id`,`category_id`,`user_id`,`gmt_create`) VALUES ('2','4','1','2017-10-31 11:28:06')
+
+[ 2017-10-31T11:29:11+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T11:29:12+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T11:29:12+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000405s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0005s ]
+
+[ 2017-10-31T11:29:12+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000368s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0009s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0006s ]
+
+[ 2017-10-31T11:29:15+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T11:29:16+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000349s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000415s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T11:29:26+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=createRegisterAndPayrecords
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_register` (`match_id`,`category_id`,`user_id`,`gmt_create`) VALUES ('2','4','1','2017-10-31 11:29:26') [ RunTime:0.0058s ]
+SQL: UPDATE `zk_register` SET `sign_qrcode`='http://192.168.103.62/Public/image/enrol/1.png',`gmt_modify`='2017-10-31 11:29:26' WHERE `register_id` = 1 [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_payrecords` [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_payrecords` (`user_id`,`total_fee`,`out_trade_no`,`match_id`,`category_id`,`remark`,`register_id`,`gmt_create`) VALUES ('1','20','2w71VPBijP4JtVZm','2','4','中铠街区-枕头大战报名费','1','2017-10-31 11:29:26') [ RunTime:0.0007s ]
+SQL: UPDATE `zk_register` SET `payrecords_id`='1',`gmt_modify`='2017-10-31 11:29:26' WHERE `register_id` = 1 [ RunTime:0.0007s ]
+
+[ 2017-10-31T13:09:15+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000312s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T14:47:01+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000656s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000650s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000702s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T14:47:34+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:05:01+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:05:04+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000461s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:05:05+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000380s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0007s ]
+
+[ 2017-10-31T15:05:05+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000463s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:05:39+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:05:43+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2 AND `category_id` = 4 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:06:02+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2 AND `category_id` = 4 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:06:10+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000353s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2 AND `category_id` = 4 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:06:10+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2 AND `category_id` = 4 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:06:13+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2 AND `category_id` = 4 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:06:17+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2 AND `category_id` = 4 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:06:22+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:06:23+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:06:31+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000558s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000933s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0008s ]
+
+[ 2017-10-31T15:06:31+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:08:55+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000328s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-10-31T15:08:56+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0007s ]
+
+[ 2017-10-31T15:08:56+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:09:01+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:09:03+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com//index.php?m=weapp&c=match&a=getWxRequestPayment
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2 AND `category_id` = 4 AND `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:09:29+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:09:29+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:09:30+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0007s ]
+
+[ 2017-10-31T15:09:30+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0005s ]
+
+[ 2017-10-31T15:09:35+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000388s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-10-31T15:09:41+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000393s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:09:42+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000475s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001361s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-10-31T15:09:43+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:09:46+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000824s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:09:47+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0008s ]
+
+[ 2017-10-31T15:09:47+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000242s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000579s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000649s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:09:58+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:10:02+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:10:03+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:10:41+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000633s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+
+[ 2017-10-31T15:10:42+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000631s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000687s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0018s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0009s ]
+
+[ 2017-10-31T15:10:42+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000477s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000536s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:10:46+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000327s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:10:57+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000248s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:10:59+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000218s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000752s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000436s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0007s ]
+
+[ 2017-10-31T15:10:59+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:27:06+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:27:13+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000440s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001598s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:27:14+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0014s ]
+
+[ 2017-10-31T15:27:14+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000530s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:27:17+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:27:17+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000572s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:27:20+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:27:49+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000337s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000367s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:27:51+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0007s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:27:52+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0006s ]
+
+[ 2017-10-31T15:27:52+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:27:55+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:27:57+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T15:28:07+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=saveWxUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: UPDATE `zk_wxuser` SET `real_name`='刘泽中',`id_card`='420114199510250070',`real_sex`='2',`phone_number`='18852983610',`indi_sign`='我是你的老婆',`gmt_modified`='2017-10-31 15:28:07' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0006s ]
+
+[ 2017-10-31T15:28:07+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:28:14+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getuserinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:28:14+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getSignInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000613s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `category_id` = 4 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:28:17+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:29:26+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000624s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000664s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T15:29:29+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000945s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T15:29:30+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000486s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0007s ]
+
+[ 2017-10-31T15:29:30+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000587s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+
+[ 2017-10-31T16:07:55+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T16:07:57+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T16:07:58+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000434s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0010s ]
+
+[ 2017-10-31T16:07:58+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000386s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+
+[ 2017-10-31T16:43:59+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000633s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005821s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005867s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T16:44:33+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000671s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T16:44:34+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000235s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T16:44:35+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0008s ]
+
+[ 2017-10-31T16:44:35+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000401s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0007s ]
+
+[ 2017-10-31T16:46:55+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005771s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005966s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006011s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T16:46:56+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000320s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0007s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0010s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T16:46:57+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.018241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001198s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0008s ]
+
+[ 2017-10-31T16:46:58+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000780s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-10-31T16:47:59+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005630s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005690s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005734s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T16:51:13+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000321s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T16:51:35+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T16:51:37+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0006s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0008s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T16:51:37+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0007s ]
+
+[ 2017-10-31T16:51:37+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000561s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T16:51:42+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T17:02:25+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005948s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005989s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T17:02:28+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000654s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000407s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000753s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0008s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0007s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(register_id) AS tp_count FROM `zk_register` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SELECT COUNT(register_id) AS tp_count FROM `zk_register` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-10-31T17:02:36+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000327s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000449s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0008s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0011s ]
+
+[ 2017-10-31T17:02:36+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000346s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-10-31T17:04:26+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000695s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T17:04:29+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0011s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0007s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(register_id) AS tp_count FROM `zk_register` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT COUNT(register_id) AS tp_count FROM `zk_register` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-10-31T17:04:30+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000243s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000430s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000476s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0007s ]
+
+[ 2017-10-31T17:04:30+08:00 ] 192.168.103.62 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000241s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `user_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+

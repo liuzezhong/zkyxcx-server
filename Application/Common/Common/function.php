@@ -46,3 +46,63 @@ function signature($arr = array()){
     return $signValue;
 }
 
+/**
+ * 功能：服务器内发送get请求
+ * @param $url
+ * @return mixed
+ */
+function curlGet($url) {
+    //初始化
+    $ch = curl_init();
+    //设置选项，包括URL
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_HEADER, 0);
+    //执行并获取HTML文档内容
+    $output = curl_exec($ch);
+    //释放curl句柄
+    curl_close($ch);
+    //打印获得的数据
+    return $output;
+}
+
+/**
+ * 功能： 生成16位随机字符串
+ * @param int $length
+ * @return string
+ */
+function createNonceStr($length = 16) {
+    $chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    $str = "";
+    for ($i = 0; $i < $length; $i++) {
+        $str .= substr($chars, mt_rand(0, strlen($chars) - 1), 1);
+    }
+    return $str;
+}
+
+/**
+ * 功能：生成制定内容的二维码
+ * @param string $value
+ * @return int|string
+ */
+function generateQrCode($value = '') {
+    //二维码内容
+    if(!$value) {
+        return 0;
+    }
+    vendor("Qrcode.phpqrcode");
+
+    $errorCorrectionLevel = 'Q';//容错级别
+    $matrixPointSize = 6;//生成图片大小
+
+    //生成二维码图片
+    $object = new \QRcode();
+    ob_clean();//这个一定要加上，清除缓冲区
+    $filename = "Public/image/enrol/".$value.".png";
+    $object->png($value, $filename, $errorCorrectionLevel, $matrixPointSize, 2);
+
+    //生成二维码地址
+    $codeUrl = "http://".$_SERVER['HTTP_HOST'].'/'.$filename;
+
+    return $codeUrl;
+}
