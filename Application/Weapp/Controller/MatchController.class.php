@@ -105,7 +105,9 @@ class MatchController  extends BaseController
             $category = D('Category')->listCategoryOfMatch($match_id);
             if($category) {
                 // 将类目信息整理成：男子单打(¥12.00)
+                $categoryType = array();
                 foreach ($category as $key => $value) {
+                    $categoryType[] = $value['type'];
                     if($value['money'] == '0.00') {
                         $categoryName[$key] = $value['category_name'].'（免费）';
                     }else {
@@ -153,6 +155,7 @@ class MatchController  extends BaseController
             'categoryID' => $categoryID,
             'registerUserInfo' => $registerUserInfo,
             'countRegister' => $countRegister,
+            'categoryType' => $categoryType,
         ));
     }
 
@@ -240,12 +243,39 @@ class MatchController  extends BaseController
         $register = D('Register')->isRegister($match_id,$category_id,$user['user_id']);
         //查找是否已经支付
         $payrecords = D('Payrecords')->isPayrecords($match_id,$category_id,$user['user_id']);
+
+        $leaderArray = array();
+        $teamUserArray = array();
+        $teamInfo = array();
         if($register || $payrecords) {
             // 已经报名
             $is_register = 1;
+            if($register['team_id'] != 0) {
+
+                // 搜索团队信息
+                $teamInfo = D('Team')->getTeamByID($register['team_id']);
+                // 获取团队成员信息
+                $teamUser = D('Teamuser')->getTeamUserByTeamID($teamInfo['team_id']);
+
+                foreach($teamUser as $key => $item) {
+                    if($item['is_leader'] == 1) {
+                        $leaderArray = $item;
+                    }else {
+                        $teamUserArray[] = $item;
+                    }
+                }
+                $teamInfo['leader'] = $leaderArray;
+                $teamInfo['user'] = $teamUserArray;
+            }
         }else {
             // 未报名
             $is_register = 0;
+        }
+
+        // 查找团队信息
+        $userTeam = D('Team')->listTeamByUserID($user['user_id']);
+        if(!$userTeam) {
+            $userTeam[0]['team_id'] = 0;
         }
 
         // 返回结果
@@ -257,6 +287,8 @@ class MatchController  extends BaseController
             'category' => $category,
             'is_register' => $is_register,
             'register' => $register,
+            'userTeam' => $userTeam,
+            'teamInfo' => $teamInfo,
         ));
     }
 
@@ -339,12 +371,18 @@ class MatchController  extends BaseController
         // 备注信息
         $remark = I('post.remark','','trim');
 
+        // 个人报名还是团队报名 0是个人报名，1是团队报名
+        $category_type = I('post.category_type',0,'intval');
+        // 选择的团队ID号码
+        $team_id = I('post.checkTeamID',0,'intval');
+
         // 创建报名信息数组
         $registerArray = array(
             'match_id' => $match_id,
             'category_id' => $category_id,
             'user_id' => $user_id,
             'gmt_create' => date('Y-m-d H:i:s',time()),
+            'team_id' => $team_id,
         );
 
         try {
@@ -408,6 +446,7 @@ class MatchController  extends BaseController
             'status' => 1,
             'message' => '报名信息和交易记录写入成功！',
             'register_id' => $register['register_id'],
+            'team_id' => $team_id,
         ));
     }
 

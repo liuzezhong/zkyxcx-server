@@ -1,0 +1,678 @@
+[ 2017-11-06T13:37:28+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000647s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'MaQ5222o2XbWafF9' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-11-06T13:37:29+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000170s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: unionid /Work/wwwroot/weapp.zhongkaiyun.com/Application/Weapp/Controller/WxuserController.class.php 第 41 行.
+SQL: UPDATE `zk_sessionkey` SET `session3key`='FlGVDTlo1jQuRbkX',`session_key`='JC4gKC/tGNhdNkPL/C7rwg==',`unionid`=NULL,`gmt_modified`='2017-11-06 13:37:29' WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' [ RunTime:0.0023s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T13:37:46+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T13:43:23+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T13:49:49+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000207s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T13:50:16+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T13:51:33+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000313s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T13:58:34+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000506s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000574s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-06T13:59:28+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000315s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:28:34+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000329s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:32:27+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:33:34+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:33:51+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:34:03+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000321s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000359s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:35:04+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:35:06+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:36:14+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:36:50+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000496s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:37:08+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000215s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000352s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:37:20+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000287s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:37:27+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000604s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:37:42+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-06T14:38:11+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000369s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:38:20+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:38:52+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-06T14:39:01+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:39:08+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000224s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000251s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:39:25+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000205s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:39:59+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000372s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:42:03+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T14:42:44+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000319s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:45:14+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000299s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:45:43+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:46:54+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000510s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T14:49:48+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-06T15:04:40+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0003s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('1111111','1','2017-11-06 15:04:40') [ RunTime:0.0057s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0006s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`team_id`) VALUES ('222222','222222','22222','1','1','1') [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('3333333','33333333','2','333333333','1','2017-11-06 15:04:40') [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('44444444','444444444','1','44444444','1','2017-11-06 15:04:40') [ RunTime:0.0003s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('55555555','55555555','2','55555555','1','2017-11-06 15:04:40') [ RunTime:0.0003s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('66666666','66666666','2','666666666','1','2017-11-06 15:04:40') [ RunTime:0.0005s ]
+
+[ 2017-11-06T15:09:49+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000225s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000254s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T15:10:40+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('eweq123','1','2017-11-06 15:10:40') [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('2323','','23242424','2','1','2017-11-06 15:10:40','2') [ RunTime:0.0006s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('2423','2323','1','2424232','2','2017-11-06 15:10:40') [ RunTime:0.0006s ]
+
+[ 2017-11-06T15:11:25+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000507s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000561s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T15:11:27+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000534s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000567s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0003s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('','1','2017-11-06 15:11:27') [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('','','','0','1','2017-11-06 15:11:27','3') [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('','','0','','3','2017-11-06 15:11:27') [ RunTime:0.0004s ]
+
+[ 2017-11-06T15:11:29+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000261s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0003s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('','1','2017-11-06 15:11:29') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('','','','0','1','2017-11-06 15:11:29','4') [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('','','0','','4','2017-11-06 15:11:29') [ RunTime:0.0004s ]
+
+[ 2017-11-06T15:11:47+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000253s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000467s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('q323','1','2017-11-06 15:11:47') [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0006s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('3232','2323','2323','0','1','2017-11-06 15:11:47','5') [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('2323','2323','0','2323','5','2017-11-06 15:11:47') [ RunTime:0.0005s ]
+
+[ 2017-11-06T15:12:08+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000460s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('q323','1','2017-11-06 15:12:08') [ RunTime:0.0055s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('3232','2323','2323','0','1','2017-11-06 15:12:08','6') [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('2323','2323','0','2323','6','2017-11-06 15:12:08') [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('','','0','','6','2017-11-06 15:12:08') [ RunTime:0.0003s ]
+
+[ 2017-11-06T15:18:05+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000241s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-06T15:18:29+08:00 ] 192.168.103.108 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('232323','1','2017-11-06 15:18:29') [ RunTime:0.0054s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0004s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('23232','2323','232323','2','1','2017-11-06 15:18:29','7') [ RunTime:0.0006s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('','','0','','7','2017-11-06 15:18:29') [ RunTime:0.0006s ]
+
+[ 2017-11-06T16:19:57+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000547s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000547s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T16:19:58+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001171s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001293s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_team` WHERE `user_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-11-06T16:20:18+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000249s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000250s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T16:20:20+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_team` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-11-06T16:21:35+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0003s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('羽毛球','1','2017-11-06 16:21:35') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('刘泽中','18852983610','420114199510250070','2','1','2017-11-06 16:21:35','8') [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('历史的发生','43424321324232323','1','43245342341','8','2017-11-06 16:21:35') [ RunTime:0.0004s ]
+ERR: 1406:Data too long for column 'phone_number' at row 1
+ [ SQL语句 ] : INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('刘泽中2','320429323021323','1','242323121212','8','2017-11-06 16:21:35')
+
+[ 2017-11-06T16:21:35+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000206s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000232s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_team` WHERE `user_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-11-06T16:21:53+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000250s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-06T16:21:55+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000187s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_team` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-11-06T16:29:12+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000462s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-06T16:29:15+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000566s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_team` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+
+[ 2017-11-06T16:29:29+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=createTeam
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000425s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_team` WHERE `team_name` = '羽毛球' AND `user_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `zk_team` (`team_name`,`user_id`,`gmt_create`) VALUES ('羽毛球','1','2017-11-06 16:29:29') [ RunTime:0.0056s ]
+SQL: SHOW COLUMNS FROM `zk_teamuser` [ RunTime:0.0006s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`phone_number`,`id_card`,`real_sex`,`is_leader`,`gmt_create`,`team_id`) VALUES ('132131','13412','13131','2','1','2017-11-06 16:29:29','9') [ RunTime:0.0005s ]
+SQL: INSERT INTO `zk_teamuser` (`real_name`,`id_card`,`real_sex`,`phone_number`,`team_id`,`gmt_create`) VALUES ('12313','1313','1','1313125434','9','2017-11-06 16:29:29') [ RunTime:0.0004s ]
+
+[ 2017-11-06T16:29:30+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000212s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'FlGVDTlo1jQuRbkX' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60E98MOGnr9Z9Ele1UYroiLQ' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_team` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_team` WHERE `user_id` = 1  [ RunTime:0.0002s ]
+

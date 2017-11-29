@@ -58,7 +58,6 @@ function curlGet($url) {
     curl_setopt($ch, CURLOPT_URL, $url);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
     curl_setopt($ch, CURLOPT_HEADER, 0);
-    curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
     //执行并获取HTML文档内容
     $output = curl_exec($ch);
     //释放curl句柄

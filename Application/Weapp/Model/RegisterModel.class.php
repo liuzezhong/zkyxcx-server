@@ -97,7 +97,7 @@ class RegisterModel extends Model
             throw_exception('Weapp Model listRegisterByUserID user_id is null');
         }
         $condition['user_id'] = $user_id;
-        return $this->where($condition)->select();
+        return $this->where($condition)->order('gmt_create desc')->select();
     }
 
     /**

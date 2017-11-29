@@ -1154,3 +1154,163 @@ SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.00
 SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0002s ]
 SQL: SELECT * FROM `zk_register` WHERE `match_id` = 1  [ RunTime:0.0002s ]
 
+[ 2017-11-03T11:28:22+08:00 ] 192.168.103.251 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005912s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = 'fvhxJa5jXbHV5Tpq' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-11-03T11:28:22+08:00 ] 192.168.103.251 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0003s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0003s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0001s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0001s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-11-03T11:28:24+08:00 ] 192.168.103.251 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=increaseViewTimes
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: UPDATE `zk_match` SET `view_times`=view_times+1 WHERE `match_id` = 2 [ RunTime:0.0006s ]
+
+[ 2017-11-03T11:28:24+08:00 ] 192.168.103.251 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=getMatchInfoByID
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000178s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000256s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `zk_match` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_image` WHERE `match_id` = 2 AND `is_status` = 1  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `zk_category` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_category` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `user_id` IN ('1')  [ RunTime:0.0003s ]
+
+[ 2017-11-03T15:59:26+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=checksessionkey
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000477s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000562s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000600s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `session3key` = '<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">
+<html xmlns=\"http://www.w3.org/1999/xhtml\"><head>
+<meta content=\"text/html; charset=utf-8\" http-equiv=\"Content-Type\">
+<title>系统发生错误</title>
+<style type=\"text/css\">
+*{ padding: 0; margin: 0; }
+html{ overflow-y: scroll; }
+body{ background: #fff; font-family: \'微软雅黑\'; color: #333; font-size: 16px; }
+img{ border: 0; }
+.error{ padding: 24px 48px; }
+.face{ font-size: 100px; font-weight: normal; line-height: 120px; margin-bottom: 12px; }
+h1{ font-size: 32px; line-height: 48px; }
+.error .content{ padding-top: 10px}
+.error .info{ margin-bottom: 12px; }
+.error .info .title{ margin-bottom: 3px; }
+.error .info .title h3{ color: #000; font-weight: 700; font-size: 16px; }
+.error .info .text{ line-height: 24px; }
+.copyright{ padding: 12px 48px; color: #999; }
+.copyright a{ color: #000; text-decoration: none; }
+</style>
+</head>
+<body>
+<div class=\"error\">
+<p class=\"face\">:(</p>
+<h1>Weapp Model SessionkeyModel getSessionKeyByOpenID openid is null</h1>
+<div class=\"content\">
+	<div class=\"info\">
+		<div class=\"title\">
+			<h3>错误位置</h3>
+		</div>
+		<div class=\"text\">
+			<p>FILE: D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\Common\\functions.php &#12288;LINE: 820</p>
+		</div>
+	</div>
+	<div class=\"info\">
+		<div class=\"title\">
+			<h3>TRACE</h3>
+		</div>
+		<div class=\"text\">
+			<p>#0  Think\\Think::halt(Weapp Model SessionkeyModel getSessionKeyByOpenID openid is null) called at [D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\Common\\functions.php:820]<br />
+#1  throw_exception(Weapp Model SessionkeyModel getSessionKeyByOpenID openid is null) called at [D:\\www\\weapp.zhongkaiyun.com\\Application\\Weapp\\Model\\SessionkeyModel.class.php:23]<br />
+#2  Weapp\\Model\\SessionkeyModel->getSessionKeyByOpenID() called at [D:\\www\\weapp.zhongkaiyun.com\\Application\\Weapp\\Controller\\WxuserController.class.php:24]<br />
+#3  Weapp\\Controller\\WxuserController->login()<br />
+#4  ReflectionMethod->invoke(Weapp\\Controller\\WxuserController Object ([] => Think\\View Object ([] => Array (),[] => ),[] => Array ())) called at [D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\Library\\Think\\App.class.php:173]<br />
+#5  Think\\App::invokeAction(Weapp\\Controller\\WxuserController Object ([] => Think\\View Object ([] => Array (),[] => ),[] => Array ()), login) called at [D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\Library\\Think\\App.class.php:110]<br />
+#6  Think\\App::exec() called at [D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\Library\\Think\\App.class.php:204]<br />
+#7  Think\\App::run() called at [D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\Library\\Think\\Think.class.php:120]<br />
+#8  Think\\Think::start() called at [D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\ThinkPHP.php:97]<br />
+#9  require(D:\\www\\weapp.zhongkaiyun.com\\ThinkPHP\\ThinkPHP.php) called at [D:\\www\\weapp.zhongkaiyun.com\\index.php:24]<br />
+</p>
+		</div>
+	</div>
+</div>
+</div>
+<div class=\"copyright\">
+<p><a title=\"官方网站\" href=\"http://www.thinkphp.cn\">ThinkPHP</a><sup>3.2.3</sup> { Fast & Simple OOP PHP Framework } -- [ WE CAN DO IT JUST THINK ]</p>
+</div>
+</body>
+</html>
+' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-03T15:59:26+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=Weapp&c=match&a=listAllMatchInfoUnfinished
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000570s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+SQL: SHOW COLUMNS FROM `zk_match` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `zk_match` WHERE `is_finish` = 0 ORDER BY gmt_create desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `zk_event` [ RunTime:0.0005s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 36 LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `zk_image` [ RunTime:0.0006s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 2 LIMIT 1   [ RunTime:0.0062s ]
+SQL: SHOW COLUMNS FROM `zk_register` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 2  [ RunTime:0.0004s ]
+SQL: SELECT `name` FROM `zk_event` WHERE `event_id` = 7 LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `image_url` FROM `zk_image` WHERE `match_id` = 1 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `zk_register` WHERE `match_id` = 1  [ RunTime:0.0002s ]
+
+[ 2017-11-03T15:59:28+08:00 ] 192.168.191.2 /weapp.zhongkaiyun.com/index.php?m=weapp&c=wxuser&a=login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `zk_sessionkey` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `zk_sessionkey` WHERE `openid` = 'oUpv60FjcAEelz1ezrSQGQxuTQII' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: unionid /Work/wwwroot/weapp.zhongkaiyun.com/Application/Weapp/Controller/WxuserController.class.php 第 31 行.
+SQL: INSERT INTO `zk_sessionkey` (`session3key`,`openid`,`session_key`,`unionid`,`gmt_create`) VALUES ('EBBgnxoUBWDIQfCu','oUpv60FjcAEelz1ezrSQGQxuTQII','cZaxmWBOwmjVv8h5ObjU9w==',NULL,'2017-11-03 15:59:28') [ RunTime:0.0091s ]
+SQL: SHOW COLUMNS FROM `zk_wxuser` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `zk_wxuser` WHERE `openid` = 'oUpv60FjcAEelz1ezrSQGQxuTQII' LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `zk_wxuser` (`openid`,`gmt_create`) VALUES ('oUpv60FjcAEelz1ezrSQGQxuTQII','2017-11-03 15:59:28') [ RunTime:0.0011s ]
+

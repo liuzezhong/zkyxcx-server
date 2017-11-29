@@ -39,7 +39,7 @@ class WxuserController extends BaseController
                 'session3key' => $sessionKey,
                 'session_key' => $openArray['session_key'],
                 'unionid' => $openArray['unionid'],
-                'gmt_create' => date('Y-m-d H:i:s',time()),
+                'gmt_modified' => date('Y-m-d H:i:s',time()),
             );
             // 传递openid和数据array到模型层，更新数据
             $updateSession = D('Sessionkey')->modifySessionKey($openArray['openid'],$sessionArray);
@@ -74,7 +74,7 @@ class WxuserController extends BaseController
     public function checkSessionkey() {
         // 解析传递过来的session
         if($_POST['sessionKey']) {
-            $sessionKey = json_decode($_POST['sessionKey']);
+            $sessionKey = json_decode($_POST['sessionKey'],true);
         }
         // 数据库查找session是否存在
         $session = D('Sessionkey')->getSessionKeyBySession3key($sessionKey);
@@ -170,10 +170,14 @@ class WxuserController extends BaseController
                 'message' => '用户信息不存在！',
             ));
         }
+
+        // 数据库查找团队信息
+        $teams = D('Team')->listTeamByUserID($user['user_id']);
         $this->ajaxReturn(array(
             'status' => 1,
             'message' => '用户信息查找成功',
             'userInfo' => $user,
+            'teams' => $teams,
         ));
     }
 
@@ -247,5 +251,253 @@ class WxuserController extends BaseController
 
     }
 
+    /**
+     * 功能：创建团队信息
+     */
+    public function createTeam() {
+        if(!$_POST['sessionKey'] || !$_POST['formArray']) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => 'post数据不存在',
+            ));
+        }
+        // 用sessionkey换取openid
+        $openArray = $this->getOpenidBySessionKey($_POST['sessionKey']);
+        if($openArray['status'] == 0) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => $openArray['message'],
+            ));
+        }
+        // 数据库查找用户信息
+        $user = D('Wxuser')->getUserByOpenID($openArray['openid']);
+        if(!$user) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => '用户信息不存在！',
+            ));
+        }
 
+        // 获取form内容并进行json解析
+        $formArray = json_decode($_POST['formArray'],true);
+
+        // 取出团队的信息
+        $teamArray = array(
+            'team_name' => $formArray['team_name'],
+            'user_id' => $user['user_id'],
+        );
+
+        // 取出队长的数据
+        $leaderArray = array(
+            'real_name' => $formArray['leader_name'],
+            'phone_number' => $formArray['leader_phone'],
+            'id_card' => $formArray['leader_idcard'],
+            'real_sex' => $formArray['leader_sex'],
+            'is_leader' => 1,
+            'gmt_create' => date('Y-m-d H:i:s',time()),
+        );
+
+        // 删除无用数据
+        unset($formArray['leader_name']);
+        unset($formArray['leader_phone']);
+        unset($formArray['leader_idcard']);
+        unset($formArray['leader_sex']);
+        unset($formArray['team_name']);
+
+        // 整理成员数据
+        $newFormArray = array();
+        foreach ($formArray as $key => $item) {
+            $newKey = $key[strlen(trim($key))-1];
+            $newFormArray[$newKey][substr($key,0,strlen(trim($key))-1)] = $item;
+        }
+
+        try {
+            $team_id = I('post.team_id',0,'intval');
+
+            if($team_id) {
+                // 已经存在team信息，是修改信息，不是新增信息
+
+                $team = D('Team')->getTeamByID($team_id);
+                if($team['team_name'] != $teamArray['team_name']) {
+                    $teamName = D('Team')->getTeamByTeamName($teamArray['team_name'],$user['user_id']);
+                    if($teamName) {
+                        $this->ajaxReturn(array(
+                            'status' => 0,
+                            'message' => '已有此团队名称',
+                        ));
+                    }
+                }
+                // 团队信息更新
+                $teamArray['gmt_modifiy'] = date('Y-m-d H:i:s',time());
+                $teamUpdata = D('Team')->updataTeam($team_id,$teamArray);
+                if(!$teamUpdata) {
+                    $this->ajaxReturn(array(
+                        'status' => 0,
+                        'message' => '团队信息更新失败',
+                    ));
+                }
+
+                // 删除所有团队成员信息
+                $deleteTeamUser = D('Teamuser')->deleteTeamUserByTeamID($team_id);
+                if(!$deleteTeamUser) {
+                    $this->ajaxReturn(array(
+                        'status' => 0,
+                        'message' => '团队成员删除失败',
+                    ));
+                }
+            }else {
+
+                // 查看团队名称是否重复
+                $teamName = D('Team')->getTeamByTeamName($teamArray['team_name'],$user['user_id']);
+                if($teamName) {
+                    $this->ajaxReturn(array(
+                        'status' => 0,
+                        'message' => '已有此团队名称',
+                    ));
+                }
+                // 团队信息写入数据库
+                $teamArray['gmt_create'] = date('Y-m-d H:i:s',time());
+                $team_id = D('Team')->createTeam($teamArray);
+                if(!$team_id) {
+                    $this->ajaxReturn(array(
+                        'status' => 0,
+                        'message' => '团队信息创建失败',
+                    ));
+                }
+            }
+
+            // 队长信息写入数据库
+            $leaderArray['team_id'] = $team_id;
+            $teamLeader = D('Teamuser')->createTeamUser($leaderArray);
+            if(!$teamLeader) {
+                $this->ajaxReturn(array(
+                    'status' => 0,
+                    'message' => '队长信息写入失败',
+                ));
+            }
+            // 队员信息写入数据库
+            foreach ($newFormArray as $key => $item) {
+                $item['team_id'] = $team_id;
+                $item['gmt_create'] = date('Y-m-d H:i:s',time());
+                $teamUser = D('Teamuser')->createTeamUser($item);
+                if(!$teamUser) {
+                    $this->ajaxReturn(array(
+                        'status' => 0,
+                        'message' => '队员信息写入失败',
+                    ));
+                }
+            }
+        }catch (Exception $exception) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => $exception->getMessage(),
+            ));
+        }
+        $this->ajaxReturn(array(
+            'status' => 1,
+            'message' => 'form信息保存成功',
+            'teamName' => $teamName,
+        ));
+    }
+
+    /**
+     * 功能：获取团队信息
+     */
+    public function getTeamInfo() {
+        $team_id = I('post.team_id',0,'intval');
+        if(!$team_id) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => '团队ID不存在！'
+            ));
+        }
+        try{
+            // 获取团队信息
+            $team = D('Team')->getTeamByID($team_id);
+            if(!$team) {
+                $this->ajaxReturn(array(
+                    'status' => 0,
+                    'message' => '团队信息不存在',
+                ));
+            }
+            // 获取团队成员信息
+            $teamUser = D('Teamuser')->getTeamUserByTeamID($team_id);
+            if(!$teamUser) {
+                $this->ajaxReturn(array(
+                    'status' => 0,
+                    'message' => '团队信息不存在',
+                ));
+            }
+
+            $memberArray = array();
+            $newTeamUser = array();
+            $sexIndexArray = array();
+            $memberNumber = 1;
+            foreach ($teamUser as $key => $item) {
+                if($item['is_leader'] == 1) {
+                    $team['leader'] = $item;
+                    unset($teamUser[$key]);
+                }else {
+                    $memberArray[] = $memberNumber++;
+                    $newTeamUser[] = $item;
+                    $sexIndexArray[] = $item['real_sex'];
+                }
+            }
+        }catch (Exception $exception) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => $exception->getMessage(),
+            ));
+        }
+
+        $this->ajaxReturn(array(
+            'status' => 1,
+            'message' => '团队信息查找成功',
+            'teamInfo' => $team,
+            'memberArray' => $memberArray,
+            'memberNumber' => $memberNumber,
+            'newTeamUser' => $newTeamUser,
+            'sexIndexArray' => $sexIndexArray,
+        ));
+    }
+
+    /**
+     * 功能：获取用户是否创建团队信息的结果
+     */
+    public function getUserTeam() {
+        if(!$_POST['sessionKey']) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => 'post数据不存在！',
+            ));
+        }
+        // 用sessionkey换取openid
+        $openArray = $this->getOpenidBySessionKey($_POST['sessionKey']);
+        if($openArray['status'] == 0) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => $openArray['message'],
+            ));
+        }
+        // 数据库查找用户信息
+        $user = D('Wxuser')->getUserByOpenID($openArray['openid']);
+        if(!$user) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => '用户信息不存在！',
+            ));
+        }
+
+        $userTeam = D('Team')->listTeamByUserID($user['user_id']);
+        if(!$userTeam) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => '用户没有创建团队！',
+            ));
+        }
+        $this->ajaxReturn(array(
+            'status' => 1,
+            'message' => '用户已创建团队！',
+        ));
+    }
 }

@@ -79,4 +79,22 @@ class WxuserModel extends Model
         $condition['user_id'] = array('IN',$userArray);
         return $this->where($condition)->select();
     }
+
+    /**
+     * 获取所有有步数的用户信息，并按步数降序排列
+     * @return mixed
+     */
+    public function listUserOrderStep() {
+        $condition['step_sum'] = array('NEQ',0);
+        return $this->where($condition)->order('step_sum desc')->select();
+    }
+
+    /**
+     * 获取所有有身价积分的用户信息，并按身价降序排列
+     * @return mixed
+     */
+    public function listUserOrderWorth() {
+        $condition['worth_list'] = array('NEQ',0);
+        return $this->where($condition)->order('worth_list desc')->select();
+    }
 }

@@ -10,6 +10,7 @@ namespace Weapp\Controller;
 
 
 use Think\Controller;
+use Think\Exception;
 
 class RegisterController extends BaseController
 {
@@ -59,6 +60,28 @@ class RegisterController extends BaseController
             ));
         }
 
+        $is_team = 0;
+        // 判断是否团队报名
+        if($register['team_id'] != 0) {
+            $is_team = 1;
+            // 搜索团队信息
+            $teamInfo = D('Team')->getTeamByID($register['team_id']);
+            // 获取团队成员信息
+            $teamUser = D('Teamuser')->getTeamUserByTeamID($teamInfo['team_id']);
+
+            $leaderArray = array();
+            $teamUserArray = array();
+            foreach($teamUser as $key => $item) {
+              if($item['is_leader'] == 1) {
+                  $leaderArray = $item;
+              }else {
+                  $teamUserArray[] = $item;
+              }
+            }
+
+            $teamInfo['leader'] = $leaderArray;
+            $teamInfo['user'] = $teamUserArray;
+        }
         $this->ajaxReturn(array(
             'status' => 1,
             'message' => '用户报名信息查找成功！',
@@ -66,6 +89,8 @@ class RegisterController extends BaseController
             'category' => $category,
             'user' => $user,
             'register' => $register,
+            'teamInfo' => $teamInfo,
+            'is_team' => $is_team,
         ));
     }
 
@@ -126,5 +151,43 @@ class RegisterController extends BaseController
                 ));
             }
         }
+    }
+
+    /**
+     * 功能：获取已经报名比赛的用户信息
+     */
+    public function getMatchRegister() {
+        $registers = array();
+        $match_id = I('post.match_id',0,'intval');
+        if(!$match_id) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => '比赛ID不存在！',
+            ));
+        }
+
+        try {
+            $registers = D('Register')->getRegisterByMatchID($match_id);
+
+            if($registers) {
+               foreach ($registers as $key => $item) {
+                   $user = D('Wxuser')->getUserInfoByID($item['user_id']);
+                   $category = D('Category')->getCategoryOfMatch($item['category_id']);
+                   $registers[$key]['user'] = $user;
+                   $registers[$key]['category'] = $category;
+               }
+            }
+        } catch (Exception $exception) {
+            $this->ajaxReturn(array(
+                'status' => 0,
+                'message' => $exception->getMessage(),
+            ));
+        }
+        $this->ajaxReturn(array(
+            'status' => 1,
+            'message' => '用户信息查找成功呃',
+            'registers' => $registers,
+        ));
+
     }
 }
